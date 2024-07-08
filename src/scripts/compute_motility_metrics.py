@@ -38,7 +38,19 @@ trajectory_distance_threshold_option = click.option(
 @trajectory_time_threshold_option
 @click.command()
 def main(time_threshold, distance_threshold):
-    """"""
+    """Script for computing summary motility metrics from cell trajectory data.
+
+    Parses cell trajectory coordinates from CSV files and computes a variety of motility metrics
+    for each cell trajectory. Methodology for computing motility metrics is provided in [1].
+    Outputs a summary CSV file in which the columns are the various motility metrics (total
+    distance, net distance, confinement ratio, etc.), and each row corresponds to the summary
+    motility metrics for one particular cell trajectory. Cell trajectories with a duration shorter
+    than `time_threshold` or distance traversed shorter than `distance_threshold` are discarded.
+
+    References
+    ----------
+    [1] https://doi.org/10.57844/arcadia-2d61-fb05
+    """
     # handle missing file paths
     if not INPUT_DIRECTORY.exists():
         msg = "Input directory for CSV files of cell trajectories not found."
@@ -89,7 +101,7 @@ def main(time_threshold, distance_threshold):
         & (motility_metrics_dataframe["total_distance"] >= distance_threshold)
     ]
 
-    # export
+    # export to CSV
     motility_metrics_dataframe_filtered.to_csv(OUTPUT_CSV, index=False)
 
 
