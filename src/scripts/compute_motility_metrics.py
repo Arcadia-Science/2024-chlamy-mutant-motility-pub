@@ -14,7 +14,7 @@ OUTPUT_CSV = Path(__file__).parents[2] / "data/summary_motility_metrics.csv"
 trajectory_time_threshold_option = click.option(
     "--time-threshold",
     "time_threshold",
-    default=10,
+    default=10.0,
     show_default=True,
     help=(
         "Minimum trajectory duration (in seconds). Motility metrics from cells with a shorter "
@@ -25,7 +25,7 @@ trajectory_time_threshold_option = click.option(
 trajectory_distance_threshold_option = click.option(
     "--distance-threshold",
     "distance_threshold",
-    default=20,
+    default=20.0,
     show_default=True,
     help=(
         "Minimum trajectory distance (in microns). Motility metrics from cells that traverse a "
@@ -43,9 +43,10 @@ def main(time_threshold, distance_threshold):
     Parses cell trajectory coordinates from CSV files and computes a variety of motility metrics
     for each cell trajectory. Methodology for computing motility metrics is provided in [1].
     Outputs a summary CSV file in which the columns are the various motility metrics (total
-    distance, net distance, confinement ratio, etc.), and each row corresponds to the summary
-    motility metrics for one particular cell trajectory. Cell trajectories with a duration shorter
-    than `time_threshold` or distance traversed shorter than `distance_threshold` are discarded.
+    distance, mean curvilinear speed, mean angular speed, etc.), and each row corresponds to the
+    summary motility metrics for one particular cell trajectory. Cell trajectories with a duration
+    shorter than `time_threshold` or distance traversed shorter than `distance_threshold` are
+    discarded.
 
     References
     ----------
