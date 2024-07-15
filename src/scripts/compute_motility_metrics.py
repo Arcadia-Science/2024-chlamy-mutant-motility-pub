@@ -7,9 +7,10 @@ from chlamytracker.tracking_metrics import TrajectoryCSVParser
 from natsort import natsorted
 from tqdm import tqdm
 
-INPUT_DIRECTORY = Path(__file__).parents[2] / "data/cell_trajectory_csvs/"
-INPUT_JSON = Path(__file__).parents[2] / "data/experimental_parameters.json"
-OUTPUT_CSV = Path(__file__).parents[2] / "data/summary_motility_metrics.csv"
+ROOT_DIRECTORY = Path(__file__).parents[2]
+INPUT_DIRECTORY = ROOT_DIRECTORY / "data/cell_trajectory_csvs/"
+INPUT_JSON = ROOT_DIRECTORY / "data/experimental_parameters.json"
+OUTPUT_CSV = ROOT_DIRECTORY / "data/summary_motility_metrics.csv"
 
 trajectory_time_threshold_option = click.option(
     "--time-threshold",
@@ -54,11 +55,19 @@ def main(time_threshold, distance_threshold):
     """
     # handle missing file paths
     if not INPUT_DIRECTORY.exists():
-        msg = "Input directory for CSV files of cell trajectories not found."
-        raise FileNotFoundError(msg)
-
+        msg = f"Input directory for CSV files of cell trajectories not found: '{INPUT_DIRECTORY}'."
+        raise FileExistsError(msg)
     if not INPUT_JSON.exists():
-        msg = "Input json file for experimental parameters not found."
+        msg = f"Input json file for experimental parameters not found: '{INPUT_JSON}'."
+        raise FileExistsError(msg)
+    if not OUTPUT_CSV.parent.exists():
+        msg = f"Cannot save to a non-existent directory: '{OUTPUT_CSV.parent}'."
+        raise FileExistsError(msg)
+
+    # collect CSV files to process
+    trajectory_csvs = natsorted(INPUT_DIRECTORY.glob("*.csv"))
+    if not trajectory_csvs:
+        msg = f"No CSV files found in '{INPUT_DIRECTORY}'."
         raise FileNotFoundError(msg)
 
     # load experimental parameters
@@ -66,8 +75,6 @@ def main(time_threshold, distance_threshold):
     framerate = experimental_parameters["framerate"]
     pixelsize = experimental_parameters["pixelsize"]
 
-    # collect CSV files to process
-    trajectory_csvs = natsorted(INPUT_DIRECTORY.glob("*.csv"))
     # initialize dataframe of summary motility metrics
     motility_metrics_dataframe = pd.DataFrame()
 
