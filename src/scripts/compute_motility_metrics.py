@@ -78,7 +78,7 @@ def main(input_directory, input_json_file, output_directory, time_threshold, dis
     ----------
     [1] https://doi.org/10.57844/arcadia-2d61-fb05
     """
-    # TODO: describe this choice in the docstring
+    # TODO: explain/justify this choice in the docstring
     dataset_name = input_directory.name
 
     # handle missing file paths
