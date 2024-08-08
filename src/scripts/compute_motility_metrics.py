@@ -8,9 +8,31 @@ from natsort import natsorted
 from tqdm import tqdm
 
 ROOT_DIRECTORY = Path(__file__).parents[2]
-INPUT_DIRECTORY = ROOT_DIRECTORY / "data/cell_trajectory_csvs/"
-INPUT_JSON = ROOT_DIRECTORY / "data/experimental_parameters.json"
-OUTPUT_CSV = ROOT_DIRECTORY / "data/summary_motility_metrics.csv"
+DEFAULT_INPUT_JSON_FILE = ROOT_DIRECTORY / "data/experimental_parameters.json"
+DEFAULT_OUTPUT_DIRECTORY = ROOT_DIRECTORY / "data/"
+
+input_directory_argument = click.argument(
+    "input_directory",
+    type=Path,
+)
+
+input_json_option = click.option(
+    "--json",
+    "input_json_file",
+    type=Path,
+    default=DEFAULT_INPUT_JSON_FILE,
+    show_default=True,
+    help="JSON file that maps each file in a dataset to a set of experimental parameters.",
+)
+
+output_directory_option = click.option(
+    "--output-directory",
+    "output_directory",
+    type=Path,
+    default=DEFAULT_OUTPUT_DIRECTORY,
+    show_default=True,
+    help="Directory for output CSV file of summary motility statistics.",
+)
 
 trajectory_time_threshold_option = click.option(
     "--time-threshold",
@@ -18,7 +40,7 @@ trajectory_time_threshold_option = click.option(
     default=10.0,
     show_default=True,
     help=(
-        "Minimum trajectory duration (in seconds). Motility metrics from cells with a shorter "
+        "Minimum trajectory duration (in seconds). Motility measurements from cells with a shorter "
         "trajectory duration than this threshold will be discarded."
     ),
 )
@@ -29,16 +51,19 @@ trajectory_distance_threshold_option = click.option(
     default=20.0,
     show_default=True,
     help=(
-        "Minimum trajectory distance (in microns). Motility metrics from cells that traverse a "
-        "shorter distance than this threshold will be discarded."
+        "Minimum trajectory distance (in microns). Motility measurements from cells that traverse "
+        "a shorter distance than this threshold will be discarded."
     ),
 )
 
 
 @trajectory_distance_threshold_option
 @trajectory_time_threshold_option
+@output_directory_option
+@input_json_option
+@input_directory_argument
 @click.command()
-def main(time_threshold, distance_threshold):
+def main(input_directory, input_json_file, output_directory, time_threshold, distance_threshold):
     """Script for computing summary motility metrics from cell trajectory data.
 
     Parses cell trajectory coordinates from CSV files and computes a variety of motility metrics
@@ -53,27 +78,33 @@ def main(time_threshold, distance_threshold):
     ----------
     [1] https://doi.org/10.57844/arcadia-2d61-fb05
     """
+    # TODO: describe this choice in the docstring
+    dataset_name = input_directory.name
+
     # handle missing file paths
-    if not INPUT_DIRECTORY.exists():
-        msg = f"Input directory for CSV files of cell trajectories not found: '{INPUT_DIRECTORY}'."
+    if not input_directory.exists():
+        msg = f"Input directory for CSV files of cell trajectories not found: '{input_directory}'."
         raise FileExistsError(msg)
-    if not INPUT_JSON.exists():
-        msg = f"Input json file for experimental parameters not found: '{INPUT_JSON}'."
+    if not input_json_file.exists():
+        msg = f"Input json file for experimental parameters not found: '{input_json_file}'."
         raise FileExistsError(msg)
-    if not OUTPUT_CSV.parent.exists():
-        msg = f"Cannot save to a non-existent directory: '{OUTPUT_CSV.parent}'."
+    if not output_directory.exists():
+        msg = f"Cannot save to a non-existent directory: '{output_directory}'."
         raise FileExistsError(msg)
+    else:
+        output_csv_file = output_directory / f"summary_motility_statistics_{dataset_name}.csv"
 
     # collect CSV files to process
-    trajectory_csvs = natsorted(INPUT_DIRECTORY.glob("*.csv"))
+    trajectory_csvs = natsorted(input_directory.glob("*.csv"))
     if not trajectory_csvs:
-        msg = f"No CSV files found in '{INPUT_DIRECTORY}'."
+        msg = f"No CSV files found in '{input_directory}'."
         raise FileNotFoundError(msg)
 
     # load experimental parameters
-    experimental_parameters = json.loads(INPUT_JSON.read_text())
-    framerate = experimental_parameters["framerate"]
-    pixelsize = experimental_parameters["pixelsize"]
+    experimental_parameters = json.loads(input_json_file.read_text())
+    framerate = experimental_parameters[dataset_name]["framerate"]
+    pixelsize = experimental_parameters[dataset_name]["pixelsize"]
+    hours_in_drug = experimental_parameters[dataset_name]["hours_in_drug"]
 
     # initialize dataframe of summary motility metrics
     motility_metrics_dataframe = pd.DataFrame()
@@ -94,6 +125,7 @@ def main(time_threshold, distance_threshold):
         dataframe["cell_count"] = cell_count
         dataframe["strain"] = experimental_parameters[well_id]["strain"]
         dataframe["drug"] = experimental_parameters[well_id]["drug"]
+        dataframe["hours_in_drug"] = hours_in_drug
         dataframe["concentration"] = experimental_parameters[well_id]["concentration"]
         dataframe["well_ID"] = well_id
 
@@ -110,7 +142,7 @@ def main(time_threshold, distance_threshold):
     ]
 
     # export to CSV
-    motility_metrics_dataframe_filtered.to_csv(OUTPUT_CSV, index=False)
+    motility_metrics_dataframe_filtered.to_csv(output_csv_file, index=False)
 
 
 if __name__ == "__main__":
