@@ -11,36 +11,82 @@ This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutan
 
 ## Installation and Setup
 
-This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda, run the following command to create the pipeline run environment.
+This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda, run the following commands to create the pipeline run environment.
 
+#### Minimal installation (does not include cell tracking capabilities)
+The minimal install will allow you to reproduce all of the motility analysis involved in the pub, but will not include many of the image processing capabilities used in the upstream analysis.
 ```{bash}
+git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
 conda env create -n chlamy-mutant-motility --file envs/dev.yml
 conda activate chlamy-mutant-motility
+```
+
+#### Full installation (includes cell tracking capabilities)
+Start by installing [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking) to a fresh conda environment.
+```{bash}
+git clone https://github.com/Arcadia-Science/2024-unicellular-tracking.git
+conda env create -n chlamy-mutant-motility --file envs/dev.yml
+conda activate chlamy-mutant-motility
+pip install -e .
+```
+Then proceed with cloning this repository.
+```{bash}
+git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
 ```
 
 
 ## Data
 
-TODO: Add details about the description of input / output data and links to Zenodo depositions, if applicable.
+As described in the [pub](https://doi.org/10.57844/arcadia-fe2a-711e), the motility data was derived from processing brightfield time-lapse microscopy data of _C. reinhardtii_ cells swimming in a 384-well plate. The image dataset underlying the pub is ____ (either 244 GB or 101 GB depending on whether 18 hr dataset is included) and has been uploaded to the BioImage Archive (DOI: ______).
+
+> TODO: Add details about the description of image data (that will ultimately be) uploaded to the BioImage Archive. Main thing relevant for documentation here is that the dataset is divided into two subdirectories: `20240425_174057_487` and `20240426_095610_676`. The first contains time-lapse data of cells swimming in drugs for 2 hours while the cells were immersed in drugs for 18 hours in the second.
+
+While the image data is too large to be included in this repository, CSV files of the detected cell trajectories can be found in [`data/cell_trajectories/`](data/cell_trajectories/). The CSV files contain time series of x, y coordinates of tracked cells, from which summary motility statistics are calculated and output to [`data/`](data/) as described in [Methods](#computing-summary-motility-statistics).
+
 
 ## Overview
 
 ### Description of the folder structure
 
+This repository is organized into the following top-level directories.
+- **data**: CSV files containing cell trajectories as well as summary CSV files of computed motility metrics.
+- **envs**: contains a conda environment file that lists the packages and dependencies used for creating the conda environment.
+- **notebooks**: a collection of Jupyter notebooks for analyzing motility data.
+- **src/scripts**: a Python script for computing summary motility statistics from cell trajectories.
+
 ### Methods
 
-TODO: Include a brief, step-wise overview of analyses performed.
+#### Cell tracking
+Cell tracking was performed using the [`track_cells.py`](https://github.com/Arcadia-Science/2024-unicellular-tracking/blob/main/src/chlamytracker/scripts/track_cells.py) script included in [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). To extract cell trajectories from image data, the image data must first be downloaded from [TODO: insert link to dataset on BioImage Archive]. The following command was used to perform cell tracking:
+```{bash}
+python src/chlamytracker/scripts/track_cells.py 20240425_174057_487 --use-dask
+```
 
-> Example:
->
-> 1.  Download scripts using `download.ipynb`.
-> 2.  Preprocess using `./preprocessing.sh -a data/`
-> 3.  Run Snakemake pipeline `snakemake --snakefile Snakefile`
-> 4.  Generate figures using `pub/make_figures.ipynb`.
+The same command was repeated for the dataset of cells after 18 hours by substituting in `20240426_095610_676` for the first argument.
+See the [README](https://github.com/Arcadia-Science/2024-unicellular-tracking?tab=readme-ov-file#scripts) for more extensive documentation on how the `track_cells.py` script can be configured.
+
+#### Computing summary motility statistics
+To generate the summary motility statistics for each dataset of cell trajectories, the script `compute_motility_metrics.py` was run using the commands:
+```{bash}
+python src/scripts/compute_motility_metrics.py data/cell_trajectories/20240425_174057_487/
+python src/scripts/compute_motility_metrics.py data/cell_trajectories/20240426_095610_676/
+```
+
+#### Generating figures
+The statistical analysis was done through a series of Jupyter notebooks in which several figures in the pub were also created. The list below maps each figure to the corresponding analysis notebook.
+- Figure 2: ____.ipynb
+- Figure 3: ____.ipynb
+- Figure 4: ____.ipynb
+
+TODO: update list when finalized...
+
 
 ### Compute Specifications
 
-TODO: Describe what compute resources were used to run the analysis. For example, you could list the operating system, number of cores, RAM, and storage space.
+Cell tracking was done on a Supermicro X12SPA-TF 64L running Ubuntu 22.04.1 with 512 GB RAM, 64 cores, and a 2 TB SSD.
+
+The notebooks for statistical analysis were run on an Apple MacBook Pro with an Apple M3 Max chip running macOS Sonoma version 14.5 with 36 GB RAM, 14 cores, and 1 TB SSD.
+
 
 ## Contributing
 
