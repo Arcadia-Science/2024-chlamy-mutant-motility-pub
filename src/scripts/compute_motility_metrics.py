@@ -84,13 +84,12 @@ def main(input_directory, input_json_file, output_directory, time_threshold, dis
     # handle missing file paths
     if not input_directory.exists():
         msg = f"Input directory for CSV files of cell trajectories not found: '{input_directory}'."
-        raise FileExistsError(msg)
+        raise FileNotFoundError(msg)
     if not input_json_file.exists():
         msg = f"Input json file for experimental parameters not found: '{input_json_file}'."
-        raise FileExistsError(msg)
+        raise FileNotFoundError(msg)
     if not output_directory.exists():
-        msg = f"Cannot save to a non-existent directory: '{output_directory}'."
-        raise FileExistsError(msg)
+        output_directory.mkdir(exist_ok=True, parents=False)
     else:
         output_csv_file = output_directory / f"summary_motility_statistics_{dataset_name}.csv"
 
@@ -109,12 +108,12 @@ def main(input_directory, input_json_file, output_directory, time_threshold, dis
     # initialize dataframe of summary motility metrics
     motility_metrics_dataframe = pd.DataFrame()
 
-    for csv in tqdm(trajectory_csvs):
+    for csv_filepath in tqdm(trajectory_csvs):
         # extract well ID from CSV filename
-        well_id = csv.name.split("_")[0]
+        well_id = csv_filepath.name.split("_")[0]
 
         # parse motility data from CSV
-        cell_trajectories = TrajectoryCSVParser(csv, framerate, pixelsize)
+        cell_trajectories = TrajectoryCSVParser(csv_filepath, framerate, pixelsize)
 
         # estimate cell count and compute motility measurements for a batch of cell trajectories
         cell_count = cell_trajectories.estimate_cell_count()
