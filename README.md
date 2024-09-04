@@ -13,7 +13,22 @@ This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutan
 
 This repository uses conda to manage software environments and installations. If you do not already have conda installed, you can find operating system-specific instructions for installing miniconda [here](https://docs.anaconda.com/miniconda/). After installing conda, navigate to a directory where you would like to clone the repository, and run the following commands to create the pipeline run environment.
 
+Start by cloning the repository and installing the required dependencies into a fresh conda environment.
+```{bash}
+git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
+cd 2024-chlamy-mutant-motility-pub
+conda env create -n chlamy-mutant-motility --file envs/dev.yml
+conda activate chlamy-mutant-motility
+```
 
+If you wish to also enable cell tracking capabilities to process the raw image data, install [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking).
+```{bash}
+cd ..
+git clone https://github.com/Arcadia-Science/2024-unicellular-tracking.git
+cd 2024-unicellular-tracking
+conda install --file envs/dev.yml
+pip install -e .
+```
 
 
 #### Minimal installation (does not include cell tracking capabilities)
@@ -25,18 +40,6 @@ conda env create -n chlamy-mutant-motility --file envs/dev.yml
 conda activate chlamy-mutant-motility
 ```
 
-#### Full installation (includes cell tracking capabilities)
-Start by installing [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking) to a fresh conda environment.
-```{bash}
-git clone https://github.com/Arcadia-Science/2024-unicellular-tracking.git
-conda env create -n chlamy-mutant-motility --file envs/dev.yml
-conda activate chlamy-mutant-motility
-pip install -e .
-```
-Then proceed with cloning this repository.
-```{bash}
-git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
-```
 
 
 ## Data
@@ -53,7 +56,7 @@ While the image data is too large to be included in this repository, CSV files o
 ### Description of the folder structure
 
 This repository is organized into the following top-level directories.
-- **data**: CSV files containing cell trajectories as well as summary CSV files of computed motility metrics.
+- **data**: CSV files containing cell trajectories as well as summary CSV files of computed motility metrics. There are two datasets of cell trajectories from two rounds of imaging: 2 hours post-treatment and 18 hours post-treatment. For each dataset there is also a CSV file of summary motility metrics. Finally, this folder also contains a list of experimental parameters related to the sample preparation, `experimental_parameters.json`.
 - **envs**: contains a conda environment file that lists the packages and dependencies used for creating the conda environment.
 - **notebooks**: a collection of Jupyter notebooks for analyzing motility data.
 - **src/scripts**: a Python script for computing summary motility statistics from cell trajectories.
