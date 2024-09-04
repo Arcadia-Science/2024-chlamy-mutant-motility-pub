@@ -31,17 +31,6 @@ pip install -e .
 ```
 
 
-#### Minimal installation (does not include cell tracking capabilities)
-The minimal install will allow you to reproduce all of the motility analysis involved in the pub, but will not include many of the image processing capabilities used in the upstream analysis.
-```{bash}
-git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
-cd 2024-chlamy-mutant-motility-pub
-conda env create -n chlamy-mutant-motility --file envs/dev.yml
-conda activate chlamy-mutant-motility
-```
-
-
-
 ## Data
 
 As described in the [pub](https://doi.org/10.57844/arcadia-fe2a-711e), the motility data was derived from processing brightfield time-lapse microscopy data of _C. reinhardtii_ cells swimming in a 384-well plate. The image dataset underlying the pub is ____ (either 244 GB or 101 GB depending on whether 18 hr dataset is included) and has been uploaded to the BioImage Archive (DOI: ______).
@@ -64,7 +53,7 @@ This repository is organized into the following top-level directories.
 ### Methods
 
 #### Cell tracking
-Cell tracking was performed using the [`track_cells.py`](https://github.com/Arcadia-Science/2024-unicellular-tracking/blob/main/src/chlamytracker/scripts/track_cells.py) script included in [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). To extract cell trajectories from image data, the image data must first be downloaded from [TODO: insert link to dataset on BioImage Archive]. The following command was used to perform cell tracking:
+Cell tracking was performed using the [`track_cells.py`](https://github.com/Arcadia-Science/2024-unicellular-tracking/blob/eed79846209ec2ed7b805f843b0a4d89c272a339/src/chlamytracker/scripts/track_cells.py) script included in [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). To extract cell trajectories from image data, the image data must first be downloaded from [TODO: insert link to dataset on BioImage Archive]. The following command was used to perform cell tracking:
 ```{bash}
 python src/chlamytracker/scripts/track_cells.py 20240425_174057_487 --use-dask
 ```
