@@ -11,12 +11,16 @@ This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutan
 
 ## Installation and Setup
 
-This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda, run the following commands to create the pipeline run environment.
+This repository uses conda to manage software environments and installations. If you do not already have conda installed, you can find operating system-specific instructions for installing miniconda [here](https://docs.anaconda.com/miniconda/). After installing conda, navigate to a directory where you would like to clone the repository, and run the following commands to create the pipeline run environment.
+
+
+
 
 #### Minimal installation (does not include cell tracking capabilities)
 The minimal install will allow you to reproduce all of the motility analysis involved in the pub, but will not include many of the image processing capabilities used in the upstream analysis.
 ```{bash}
 git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
+cd 2024-chlamy-mutant-motility-pub
 conda env create -n chlamy-mutant-motility --file envs/dev.yml
 conda activate chlamy-mutant-motility
 ```
