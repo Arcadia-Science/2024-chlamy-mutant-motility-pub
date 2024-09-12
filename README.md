@@ -6,7 +6,7 @@
 
 ## Purpose
 
-This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutants modeling spermatogenic failure](https://doi.org/10.57844/arcadia-fe2a-711e)." It contains the code, scripts, and notebooks developed for the analysis involved in the pub as well as the motility data on which the analysis was based.
+This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutants modeling spermatogenic failure](https://doi.org/10.57844/arcadia-fe2a-711e)." It contains the code, scripts, and notebooks developed for the acquisition, processing, and analysis involved in the pub as well as the motility data on which the analysis was based.
 
 
 ## Installation and Setup
@@ -39,14 +39,16 @@ As described in the [pub](https://doi.org/10.57844/arcadia-fe2a-711e), the motil
 
 While the image data is too large to be included in this repository, CSV files of the detected cell trajectories can be found in [`data/cell_trajectories/`](data/cell_trajectories/). The CSV files contain time series of x, y coordinates of tracked cells, from which summary motility statistics are calculated and output to [`data/`](data/) as described in [Methods](#computing-summary-motility-statistics).
 
+Raw images from the v-bottom motility assay are present as zipped files in ['data/vbottom_avi/'](data/vbottom_avi). The ZIP files contain single frame AVI files of either 96- or 384-well v-bottom plates containing *C. reinhardtii* cultures. Additionally, the final frame from these data acquisitions were cropped in FIJI and are available in ['data/vbottom_avi/cropped_final_frame/'](data/vbottom_avi/cropped_final_frame). 
+
 
 ## Overview
 
 ### Description of the folder structure
 
 This repository is organized into the following top-level directories.
-- **data**: CSV files containing cell trajectories as well as summary CSV files of computed motility metrics. There are two datasets of cell trajectories from two rounds of imaging: 2 hours post-treatment and 18 hours post-treatment. For each dataset there is also a CSV file of summary motility metrics. Finally, this folder also contains a list of experimental parameters related to the sample preparation, `experimental_parameters.json`.
-- **envs**: contains a conda environment file that lists the packages and dependencies used for creating the conda environment.
+- **data**: CSV files containing cell trajectories as well as summary CSV files of computed motility metrics. There are two datasets of cell trajectories from two rounds of imaging: 2 hours post-treatment and 18 hours post-treatment. For each dataset there is also a CSV file of summary motility metrics. This folder also contains a list of experimental parameters related to the sample preparation, `experimental_parameters.json`. Finally, this folder includes AVI files of single-frame images of 96- or 384- well plates imaged on the Phenotype-o-mat
+- **envs**: contains conda environment files that lists the packages and dependencies used for creating the conda environment.
 - **notebooks**: a collection of Jupyter notebooks for analyzing motility data.
 - **src/scripts**: a Python script for computing summary motility statistics from cell trajectories.
 
