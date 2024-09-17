@@ -10,7 +10,9 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT_DIRECTORY = Path(__file__).parents[2]
-DEFAULT_ZIPFOLDER_FILEPATH = ROOT_DIRECTORY / "data/vbottom_motility_assay/vbottom_motility_strains.zip"  # noqa: E501
+DEFAULT_ZIPFOLDER_FILEPATH = (
+    ROOT_DIRECTORY / "data/vbottom_motility_assay/vbottom_motility_strains.zip"
+)
 DEFAULT_OUTPUT_GIF_FILEPATH = ROOT_DIRECTORY / "results/vbottom_strain_output_video.gif"
 
 zipfolder_filepath_option = click.option(
