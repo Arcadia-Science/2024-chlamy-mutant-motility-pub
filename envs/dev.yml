@@ -15,6 +15,9 @@ dependencies:
   - matplotlib=3.8.4
   - tqdm=4.66.2
   - seaborn=0.13.2
+  - opencv=4.10.0
+  - pip=24.2
+  - ruff=0.6.5
   - pip:
     - ipympl==0.9.4
     - arcadia-pycolor==0.5.0
