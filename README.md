@@ -48,7 +48,7 @@ Raw images from the v-bottom motility assay are present as zipped files in ['dat
 
 This repository is organized into the following top-level directories.
 - **data**: CSV files containing cell trajectories as well as summary CSV files of computed motility metrics. There are two datasets of cell trajectories from two rounds of imaging: 2 hours post-treatment and 18 hours post-treatment. For each dataset there is also a CSV file of summary motility metrics. This folder also contains a list of experimental parameters related to the sample preparation, `experimental_parameters.json`. Finally, this folder includes AVI files of single-frame images of 96- or 384- well plates imaged on the Phenotype-o-mat
-- **envs**: contains conda environment files that lists the packages and dependencies used for creating the conda environment.
+- **envs**: contains a conda environment YML file that lists the packages and dependencies used for creating the conda environment.
 - **notebooks**: a collection of Jupyter notebooks for analyzing motility data.
 - **src/scripts**: a Python script for computing summary motility statistics from cell trajectories.
 
