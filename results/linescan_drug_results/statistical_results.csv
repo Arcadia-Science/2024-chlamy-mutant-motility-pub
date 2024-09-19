@@ -1,253 +1,253 @@
 group1,group2,meandiff,p-adj,lower,upper,reject,Strain,Metric
-0.1% DMSO,50 µM ATP,-6.8485,0.8037,-22.7989,9.1019,False,cc-125,Min_Intensity
-0.1% DMSO,50 µM Dynarrestin,-16.8788,0.0342,-32.8292,-0.9284,True,cc-125,Min_Intensity
-0.1% DMSO,50 µM Ibudilast,-21.7879,0.0043,-37.7383,-5.8375,True,cc-125,Min_Intensity
-0.1% DMSO,50 µM Linsitinib,-19.8485,0.0098,-35.7989,-3.8981,True,cc-125,Min_Intensity
-0.1% DMSO,50 µM TAK-063,-16.8788,0.0342,-32.8292,-0.9284,True,cc-125,Min_Intensity
-0.1% DMSO,50 µM Torin2,3.2727,0.9954,-12.6777,19.2231,False,cc-125,Min_Intensity
-0.1% DMSO,water,-16.9697,0.0329,-32.9201,-1.0193,True,cc-125,Min_Intensity
-50 µM ATP,50 µM Dynarrestin,-10.0303,0.4122,-25.9807,5.9201,False,cc-125,Min_Intensity
-50 µM ATP,50 µM Ibudilast,-14.9394,0.075,-30.8898,1.011,False,cc-125,Min_Intensity
-50 µM ATP,50 µM Linsitinib,-13.0,0.157,-28.9504,2.9504,False,cc-125,Min_Intensity
-50 µM ATP,50 µM TAK-063,-10.0303,0.4122,-25.9807,5.9201,False,cc-125,Min_Intensity
-50 µM ATP,50 µM Torin2,10.1212,0.4019,-5.8292,26.0716,False,cc-125,Min_Intensity
-50 µM ATP,water,-10.1212,0.4019,-26.0716,5.8292,False,cc-125,Min_Intensity
-50 µM Dynarrestin,50 µM Ibudilast,-4.9091,0.9554,-20.8595,11.0413,False,cc-125,Min_Intensity
-50 µM Dynarrestin,50 µM Linsitinib,-2.9697,0.9974,-18.9201,12.9807,False,cc-125,Min_Intensity
-50 µM Dynarrestin,50 µM TAK-063,0.0,1.0,-15.9504,15.9504,False,cc-125,Min_Intensity
-50 µM Dynarrestin,50 µM Torin2,20.1515,0.0086,4.2011,36.1019,True,cc-125,Min_Intensity
-50 µM Dynarrestin,water,-0.0909,1.0,-16.0413,15.8595,False,cc-125,Min_Intensity
-50 µM Ibudilast,50 µM Linsitinib,1.9394,0.9998,-14.011,17.8898,False,cc-125,Min_Intensity
-50 µM Ibudilast,50 µM TAK-063,4.9091,0.9554,-11.0413,20.8595,False,cc-125,Min_Intensity
-50 µM Ibudilast,50 µM Torin2,25.0606,0.0011,9.1102,41.011,True,cc-125,Min_Intensity
-50 µM Ibudilast,water,4.8182,0.9594,-11.1322,20.7686,False,cc-125,Min_Intensity
-50 µM Linsitinib,50 µM TAK-063,2.9697,0.9974,-12.9807,18.9201,False,cc-125,Min_Intensity
-50 µM Linsitinib,50 µM Torin2,23.1212,0.0025,7.1708,39.0716,True,cc-125,Min_Intensity
-50 µM Linsitinib,water,2.8788,0.9979,-13.0716,18.8292,False,cc-125,Min_Intensity
-50 µM TAK-063,50 µM Torin2,20.1515,0.0086,4.2011,36.1019,True,cc-125,Min_Intensity
-50 µM TAK-063,water,-0.0909,1.0,-16.0413,15.8595,False,cc-125,Min_Intensity
-50 µM Torin2,water,-20.2424,0.0083,-36.1928,-4.292,True,cc-125,Min_Intensity
-0.1% DMSO,50 µM ATP,5.6788,0.1901,-1.5882,12.9457,False,cc-125,Diff_Avg_Min
-0.1% DMSO,50 µM Dynarrestin,0.3576,1.0,-6.9094,7.6245,False,cc-125,Diff_Avg_Min
-0.1% DMSO,50 µM Ibudilast,-2.1939,0.9595,-9.4609,5.073,False,cc-125,Diff_Avg_Min
-0.1% DMSO,50 µM Linsitinib,19.2848,0.0,12.0179,26.5518,True,cc-125,Diff_Avg_Min
-0.1% DMSO,50 µM TAK-063,1.8848,0.982,-5.3821,9.1518,False,cc-125,Diff_Avg_Min
-0.1% DMSO,50 µM Torin2,-1.8606,0.9832,-9.1275,5.4063,False,cc-125,Diff_Avg_Min
-0.1% DMSO,water,0.9333,0.9998,-6.3336,8.2003,False,cc-125,Diff_Avg_Min
-50 µM ATP,50 µM Dynarrestin,-5.3212,0.2487,-12.5882,1.9457,False,cc-125,Diff_Avg_Min
-50 µM ATP,50 µM Ibudilast,-7.8727,0.0289,-15.1397,-0.6058,True,cc-125,Diff_Avg_Min
-50 µM ATP,50 µM Linsitinib,13.6061,0.0002,6.3391,20.873,True,cc-125,Diff_Avg_Min
-50 µM ATP,50 µM TAK-063,-3.7939,0.6243,-11.0609,3.473,False,cc-125,Diff_Avg_Min
-50 µM ATP,50 µM Torin2,-7.5394,0.0392,-14.8063,-0.2725,True,cc-125,Diff_Avg_Min
-50 µM ATP,water,-4.7455,0.3693,-12.0124,2.5215,False,cc-125,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Ibudilast,-2.5515,0.9156,-9.8185,4.7154,False,cc-125,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Linsitinib,18.9273,0.0,11.6603,26.1942,True,cc-125,Diff_Avg_Min
-50 µM Dynarrestin,50 µM TAK-063,1.5273,0.9947,-5.7397,8.7942,False,cc-125,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Torin2,-2.2182,0.9572,-9.4851,5.0488,False,cc-125,Diff_Avg_Min
-50 µM Dynarrestin,water,0.5758,1.0,-6.6912,7.8427,False,cc-125,Diff_Avg_Min
-50 µM Ibudilast,50 µM Linsitinib,21.4788,0.0,14.2118,28.7457,True,cc-125,Diff_Avg_Min
-50 µM Ibudilast,50 µM TAK-063,4.0788,0.5438,-3.1882,11.3457,False,cc-125,Diff_Avg_Min
-50 µM Ibudilast,50 µM Torin2,0.3333,1.0,-6.9336,7.6003,False,cc-125,Diff_Avg_Min
-50 µM Ibudilast,water,3.1273,0.802,-4.1397,10.3942,False,cc-125,Diff_Avg_Min
-50 µM Linsitinib,50 µM TAK-063,-17.4,0.0,-24.6669,-10.1331,True,cc-125,Diff_Avg_Min
-50 µM Linsitinib,50 µM Torin2,-21.1455,0.0,-28.4124,-13.8785,True,cc-125,Diff_Avg_Min
-50 µM Linsitinib,water,-18.3515,0.0,-25.6185,-11.0846,True,cc-125,Diff_Avg_Min
-50 µM TAK-063,50 µM Torin2,-3.7455,0.638,-11.0124,3.5215,False,cc-125,Diff_Avg_Min
-50 µM TAK-063,water,-0.9515,0.9997,-8.2185,6.3154,False,cc-125,Diff_Avg_Min
-50 µM Torin2,water,2.7939,0.874,-4.473,10.0609,False,cc-125,Diff_Avg_Min
-0.1% DMSO,50 µM ATP,0.1607,0.7718,-0.1985,0.5199,False,cc-125,Frac_Avg_Min
-0.1% DMSO,50 µM Dynarrestin,0.1186,0.9368,-0.2406,0.4779,False,cc-125,Frac_Avg_Min
-0.1% DMSO,50 µM Ibudilast,0.0326,1.0,-0.3266,0.3918,False,cc-125,Frac_Avg_Min
-0.1% DMSO,50 µM Linsitinib,0.776,0.0,0.4168,1.1353,True,cc-125,Frac_Avg_Min
-0.1% DMSO,50 µM TAK-063,0.1625,0.7626,-0.1967,0.5217,False,cc-125,Frac_Avg_Min
-0.1% DMSO,50 µM Torin2,-0.0419,0.9999,-0.4012,0.3173,False,cc-125,Frac_Avg_Min
-0.1% DMSO,water,0.1469,0.8375,-0.2123,0.5061,False,cc-125,Frac_Avg_Min
-50 µM ATP,50 µM Dynarrestin,-0.0421,0.9999,-0.4013,0.3172,False,cc-125,Frac_Avg_Min
-50 µM ATP,50 µM Ibudilast,-0.1281,0.9094,-0.4873,0.2311,False,cc-125,Frac_Avg_Min
-50 µM ATP,50 µM Linsitinib,0.6154,0.0004,0.2561,0.9746,True,cc-125,Frac_Avg_Min
-50 µM ATP,50 µM TAK-063,0.0018,1.0,-0.3574,0.361,False,cc-125,Frac_Avg_Min
-50 µM ATP,50 µM Torin2,-0.2026,0.5381,-0.5618,0.1566,False,cc-125,Frac_Avg_Min
-50 µM ATP,water,-0.0138,1.0,-0.373,0.3454,False,cc-125,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Ibudilast,-0.0861,0.9885,-0.4453,0.2732,False,cc-125,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Linsitinib,0.6574,0.0002,0.2982,1.0166,True,cc-125,Frac_Avg_Min
-50 µM Dynarrestin,50 µM TAK-063,0.0438,0.9998,-0.3154,0.4031,False,cc-125,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Torin2,-0.1606,0.7724,-0.5198,0.1986,False,cc-125,Frac_Avg_Min
-50 µM Dynarrestin,water,0.0283,1.0,-0.3309,0.3875,False,cc-125,Frac_Avg_Min
-50 µM Ibudilast,50 µM Linsitinib,0.7435,0.0,0.3843,1.1027,True,cc-125,Frac_Avg_Min
-50 µM Ibudilast,50 µM TAK-063,0.1299,0.9036,-0.2293,0.4891,False,cc-125,Frac_Avg_Min
-50 µM Ibudilast,50 µM Torin2,-0.0745,0.9951,-0.4337,0.2847,False,cc-125,Frac_Avg_Min
-50 µM Ibudilast,water,0.1143,0.9472,-0.2449,0.4736,False,cc-125,Frac_Avg_Min
-50 µM Linsitinib,50 µM TAK-063,-0.6136,0.0005,-0.9728,-0.2544,True,cc-125,Frac_Avg_Min
-50 µM Linsitinib,50 µM Torin2,-0.818,0.0,-1.1772,-0.4588,True,cc-125,Frac_Avg_Min
-50 µM Linsitinib,water,-0.6291,0.0003,-0.9884,-0.2699,True,cc-125,Frac_Avg_Min
-50 µM TAK-063,50 µM Torin2,-0.2044,0.5281,-0.5636,0.1548,False,cc-125,Frac_Avg_Min
-50 µM TAK-063,water,-0.0156,1.0,-0.3748,0.3437,False,cc-125,Frac_Avg_Min
-50 µM Torin2,water,0.1888,0.6168,-0.1704,0.5481,False,cc-125,Frac_Avg_Min
-0.1% DMSO,50 µM ATP,2.5758,0.8131,-3.5009,8.6524,False,cc-2670,Min_Intensity
-0.1% DMSO,50 µM Dynarrestin,-1.3636,0.9921,-7.4403,4.713,False,cc-2670,Min_Intensity
-0.1% DMSO,50 µM Ibudilast,-26.3636,0.0,-32.4403,-20.287,True,cc-2670,Min_Intensity
-0.1% DMSO,50 µM Linsitinib,-30.5455,0.0,-36.6221,-24.4688,True,cc-2670,Min_Intensity
-0.1% DMSO,50 µM TAK-063,-14.6364,0.0,-20.713,-8.5597,True,cc-2670,Min_Intensity
-0.1% DMSO,50 µM Torin2,8.697,0.0028,2.6203,14.7736,True,cc-2670,Min_Intensity
-0.1% DMSO,water,-5.2121,0.122,-11.2887,0.8645,False,cc-2670,Min_Intensity
-50 µM ATP,50 µM Dynarrestin,-3.9394,0.3775,-10.016,2.1372,False,cc-2670,Min_Intensity
-50 µM ATP,50 µM Ibudilast,-28.9394,0.0,-35.016,-22.8628,True,cc-2670,Min_Intensity
-50 µM ATP,50 µM Linsitinib,-33.1212,0.0,-39.1978,-27.0446,True,cc-2670,Min_Intensity
-50 µM ATP,50 µM TAK-063,-17.2121,0.0,-23.2887,-11.1355,True,cc-2670,Min_Intensity
-50 µM ATP,50 µM Torin2,6.1212,0.0477,0.0446,12.1978,True,cc-2670,Min_Intensity
-50 µM ATP,water,-7.7879,0.0076,-13.8645,-1.7113,True,cc-2670,Min_Intensity
-50 µM Dynarrestin,50 µM Ibudilast,-25.0,0.0,-31.0766,-18.9234,True,cc-2670,Min_Intensity
-50 µM Dynarrestin,50 µM Linsitinib,-29.1818,0.0,-35.2584,-23.1052,True,cc-2670,Min_Intensity
-50 µM Dynarrestin,50 µM TAK-063,-13.2727,0.0,-19.3493,-7.1961,True,cc-2670,Min_Intensity
-50 µM Dynarrestin,50 µM Torin2,10.0606,0.0006,3.984,16.1372,True,cc-2670,Min_Intensity
-50 µM Dynarrestin,water,-3.8485,0.4041,-9.9251,2.2281,False,cc-2670,Min_Intensity
-50 µM Ibudilast,50 µM Linsitinib,-4.1818,0.3118,-10.2584,1.8948,False,cc-2670,Min_Intensity
-50 µM Ibudilast,50 µM TAK-063,11.7273,0.0001,5.6507,17.8039,True,cc-2670,Min_Intensity
-50 µM Ibudilast,50 µM Torin2,35.0606,0.0,28.984,41.1372,True,cc-2670,Min_Intensity
-50 µM Ibudilast,water,21.1515,0.0,15.0749,27.2281,True,cc-2670,Min_Intensity
-50 µM Linsitinib,50 µM TAK-063,15.9091,0.0,9.8325,21.9857,True,cc-2670,Min_Intensity
-50 µM Linsitinib,50 µM Torin2,39.2424,0.0,33.1658,45.319,True,cc-2670,Min_Intensity
-50 µM Linsitinib,water,25.3333,0.0,19.2567,31.41,True,cc-2670,Min_Intensity
-50 µM TAK-063,50 µM Torin2,23.3333,0.0,17.2567,29.41,True,cc-2670,Min_Intensity
-50 µM TAK-063,water,9.4242,0.0013,3.3476,15.5009,True,cc-2670,Min_Intensity
-50 µM Torin2,water,-13.9091,0.0,-19.9857,-7.8325,True,cc-2670,Min_Intensity
-0.1% DMSO,50 µM ATP,-1.8061,0.9992,-13.4521,9.84,False,cc-2670,Diff_Avg_Min
-0.1% DMSO,50 µM Dynarrestin,-10.1273,0.1136,-21.7733,1.5188,False,cc-2670,Diff_Avg_Min
-0.1% DMSO,50 µM Ibudilast,6.5758,0.537,-5.0703,18.2218,False,cc-2670,Diff_Avg_Min
-0.1% DMSO,50 µM Linsitinib,31.4,0.0,19.754,43.046,True,cc-2670,Diff_Avg_Min
-0.1% DMSO,50 µM TAK-063,1.5576,0.9997,-10.0885,13.2036,False,cc-2670,Diff_Avg_Min
-0.1% DMSO,50 µM Torin2,-12.3333,0.034,-23.9794,-0.6873,True,cc-2670,Diff_Avg_Min
-0.1% DMSO,water,-7.0848,0.4506,-18.7309,4.5612,False,cc-2670,Diff_Avg_Min
-50 µM ATP,50 µM Dynarrestin,-8.3212,0.2729,-19.9672,3.3248,False,cc-2670,Diff_Avg_Min
-50 µM ATP,50 µM Ibudilast,8.3818,0.2656,-3.2642,20.0279,False,cc-2670,Diff_Avg_Min
-50 µM ATP,50 µM Linsitinib,33.2061,0.0,21.56,44.8521,True,cc-2670,Diff_Avg_Min
-50 µM ATP,50 µM TAK-063,3.3636,0.9678,-8.2824,15.0097,False,cc-2670,Diff_Avg_Min
-50 µM ATP,50 µM Torin2,-10.5273,0.092,-22.1733,1.1188,False,cc-2670,Diff_Avg_Min
-50 µM ATP,water,-5.2788,0.7608,-16.9248,6.3672,False,cc-2670,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Ibudilast,16.703,0.0027,5.057,28.3491,True,cc-2670,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Linsitinib,41.5273,0.0,29.8812,53.1733,True,cc-2670,Diff_Avg_Min
-50 µM Dynarrestin,50 µM TAK-063,11.6848,0.0489,0.0388,23.3309,True,cc-2670,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Torin2,-2.2061,0.9972,-13.8521,9.44,False,cc-2670,Diff_Avg_Min
-50 µM Dynarrestin,water,3.0424,0.9813,-8.6036,14.6885,False,cc-2670,Diff_Avg_Min
-50 µM Ibudilast,50 µM Linsitinib,24.8242,0.0,13.1782,36.4703,True,cc-2670,Diff_Avg_Min
-50 µM Ibudilast,50 µM TAK-063,-5.0182,0.8011,-16.6642,6.6279,False,cc-2670,Diff_Avg_Min
-50 µM Ibudilast,50 µM Torin2,-18.9091,0.0008,-30.5551,-7.2631,True,cc-2670,Diff_Avg_Min
-50 µM Ibudilast,water,-13.6606,0.0159,-25.3066,-2.0146,True,cc-2670,Diff_Avg_Min
-50 µM Linsitinib,50 µM TAK-063,-29.8424,0.0,-41.4885,-18.1964,True,cc-2670,Diff_Avg_Min
-50 µM Linsitinib,50 µM Torin2,-43.7333,0.0,-55.3794,-32.0873,True,cc-2670,Diff_Avg_Min
-50 µM Linsitinib,water,-38.4848,0.0,-50.1309,-26.8388,True,cc-2670,Diff_Avg_Min
-50 µM TAK-063,50 µM Torin2,-13.8909,0.0139,-25.5369,-2.2449,True,cc-2670,Diff_Avg_Min
-50 µM TAK-063,water,-8.6424,0.236,-20.2885,3.0036,False,cc-2670,Diff_Avg_Min
-50 µM Torin2,water,5.2485,0.7656,-6.3976,16.8945,False,cc-2670,Diff_Avg_Min
-0.1% DMSO,50 µM ATP,-0.074,1.0,-1.6565,1.5085,False,cc-2670,Frac_Avg_Min
-0.1% DMSO,50 µM Dynarrestin,-0.2615,0.9988,-1.844,1.321,False,cc-2670,Frac_Avg_Min
-0.1% DMSO,50 µM Ibudilast,1.683,0.033,0.1005,3.2655,True,cc-2670,Frac_Avg_Min
-0.1% DMSO,50 µM Linsitinib,5.7961,0.0,4.2136,7.3786,True,cc-2670,Frac_Avg_Min
-0.1% DMSO,50 µM TAK-063,0.3689,0.9902,-1.2136,1.9514,False,cc-2670,Frac_Avg_Min
-0.1% DMSO,50 µM Torin2,-0.346,0.9932,-1.9285,1.2365,False,cc-2670,Frac_Avg_Min
-0.1% DMSO,water,-0.1479,1.0,-1.7304,1.4346,False,cc-2670,Frac_Avg_Min
-50 µM ATP,50 µM Dynarrestin,-0.1875,0.9999,-1.77,1.395,False,cc-2670,Frac_Avg_Min
-50 µM ATP,50 µM Ibudilast,1.757,0.0242,0.1745,3.3395,True,cc-2670,Frac_Avg_Min
-50 µM ATP,50 µM Linsitinib,5.8701,0.0,4.2876,7.4526,True,cc-2670,Frac_Avg_Min
-50 µM ATP,50 µM TAK-063,0.4429,0.9727,-1.1396,2.0254,False,cc-2670,Frac_Avg_Min
-50 µM ATP,50 µM Torin2,-0.272,0.9985,-1.8545,1.3106,False,cc-2670,Frac_Avg_Min
-50 µM ATP,water,-0.0739,1.0,-1.6564,1.5086,False,cc-2670,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Ibudilast,1.9445,0.0109,0.362,3.527,True,cc-2670,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Linsitinib,6.0576,0.0,4.4751,7.6402,True,cc-2670,Frac_Avg_Min
-50 µM Dynarrestin,50 µM TAK-063,0.6305,0.8538,-0.9521,2.213,False,cc-2670,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Torin2,-0.0844,1.0,-1.6669,1.4981,False,cc-2670,Frac_Avg_Min
-50 µM Dynarrestin,water,0.1136,1.0,-1.4689,1.6961,False,cc-2670,Frac_Avg_Min
-50 µM Ibudilast,50 µM Linsitinib,4.1131,0.0,2.5306,5.6956,True,cc-2670,Frac_Avg_Min
-50 µM Ibudilast,50 µM TAK-063,-1.3141,0.1435,-2.8966,0.2684,False,cc-2670,Frac_Avg_Min
-50 µM Ibudilast,50 µM Torin2,-2.029,0.0076,-3.6115,-0.4465,True,cc-2670,Frac_Avg_Min
-50 µM Ibudilast,water,-1.8309,0.0177,-3.4134,-0.2484,True,cc-2670,Frac_Avg_Min
-50 µM Linsitinib,50 µM TAK-063,-5.4272,0.0,-7.0097,-3.8447,True,cc-2670,Frac_Avg_Min
-50 µM Linsitinib,50 µM Torin2,-6.1421,0.0,-7.7246,-4.5596,True,cc-2670,Frac_Avg_Min
-50 µM Linsitinib,water,-5.944,0.0,-7.5265,-4.3615,True,cc-2670,Frac_Avg_Min
-50 µM TAK-063,50 µM Torin2,-0.7149,0.7636,-2.2974,0.8676,False,cc-2670,Frac_Avg_Min
-50 µM TAK-063,water,-0.5168,0.9401,-2.0993,1.0657,False,cc-2670,Frac_Avg_Min
-50 µM Torin2,water,0.1981,0.9998,-1.3844,1.7806,False,cc-2670,Frac_Avg_Min
-0.1% DMSO,50 µM ATP,-3.4545,0.0054,-6.0489,-0.8602,True,cc-3707,Min_Intensity
-0.1% DMSO,50 µM Dynarrestin,-3.697,0.0029,-6.2913,-1.1026,True,cc-3707,Min_Intensity
-0.1% DMSO,50 µM Ibudilast,11.6364,0.0,9.042,14.2307,True,cc-3707,Min_Intensity
-0.1% DMSO,50 µM Linsitinib,19.9091,0.0,17.3147,22.5035,True,cc-3707,Min_Intensity
-0.1% DMSO,50 µM TAK-063,-3.7576,0.0025,-6.3519,-1.1632,True,cc-3707,Min_Intensity
-0.1% DMSO,50 µM Torin2,41.2424,0.0,38.6481,43.8368,True,cc-3707,Min_Intensity
-0.1% DMSO,water,-2.3939,0.0818,-4.9883,0.2004,False,cc-3707,Min_Intensity
-50 µM ATP,50 µM Dynarrestin,-0.2424,1.0,-2.8368,2.3519,False,cc-3707,Min_Intensity
-50 µM ATP,50 µM Ibudilast,15.0909,0.0,12.4965,17.6853,True,cc-3707,Min_Intensity
-50 µM ATP,50 µM Linsitinib,23.3636,0.0,20.7693,25.958,True,cc-3707,Min_Intensity
-50 µM ATP,50 µM TAK-063,-0.303,0.9999,-2.8974,2.2913,False,cc-3707,Min_Intensity
-50 µM ATP,50 µM Torin2,44.697,0.0,42.1026,47.2913,True,cc-3707,Min_Intensity
-50 µM ATP,water,1.0606,0.8378,-1.5338,3.655,False,cc-3707,Min_Intensity
-50 µM Dynarrestin,50 µM Ibudilast,15.3333,0.0,12.739,17.9277,True,cc-3707,Min_Intensity
-50 µM Dynarrestin,50 µM Linsitinib,23.6061,0.0,21.0117,26.2004,True,cc-3707,Min_Intensity
-50 µM Dynarrestin,50 µM TAK-063,-0.0606,1.0,-2.655,2.5338,False,cc-3707,Min_Intensity
-50 µM Dynarrestin,50 µM Torin2,44.9394,0.0,42.345,47.5338,True,cc-3707,Min_Intensity
-50 µM Dynarrestin,water,1.303,0.6648,-1.2913,3.8974,False,cc-3707,Min_Intensity
-50 µM Ibudilast,50 µM Linsitinib,8.2727,0.0,5.6784,10.8671,True,cc-3707,Min_Intensity
-50 µM Ibudilast,50 µM TAK-063,-15.3939,0.0,-17.9883,-12.7996,True,cc-3707,Min_Intensity
-50 µM Ibudilast,50 µM Torin2,29.6061,0.0,27.0117,32.2004,True,cc-3707,Min_Intensity
-50 µM Ibudilast,water,-14.0303,0.0,-16.6247,-11.4359,True,cc-3707,Min_Intensity
-50 µM Linsitinib,50 µM TAK-063,-23.6667,0.0,-26.261,-21.0723,True,cc-3707,Min_Intensity
-50 µM Linsitinib,50 µM Torin2,21.3333,0.0,18.739,23.9277,True,cc-3707,Min_Intensity
-50 µM Linsitinib,water,-22.303,0.0,-24.8974,-19.7087,True,cc-3707,Min_Intensity
-50 µM TAK-063,50 µM Torin2,45.0,0.0,42.4056,47.5944,True,cc-3707,Min_Intensity
-50 µM TAK-063,water,1.3636,0.617,-1.2307,3.958,False,cc-3707,Min_Intensity
-50 µM Torin2,water,-43.6364,0.0,-46.2307,-41.042,True,cc-3707,Min_Intensity
-0.1% DMSO,50 µM ATP,5.9212,0.5809,-4.9805,16.8229,False,cc-3707,Diff_Avg_Min
-0.1% DMSO,50 µM Dynarrestin,-1.303,0.9999,-12.2047,9.5987,False,cc-3707,Diff_Avg_Min
-0.1% DMSO,50 µM Ibudilast,-32.2909,0.0,-43.1926,-21.3892,True,cc-3707,Diff_Avg_Min
-0.1% DMSO,50 µM Linsitinib,-27.6303,0.0,-38.532,-16.7286,True,cc-3707,Diff_Avg_Min
-0.1% DMSO,50 µM TAK-063,-4.8364,0.7785,-15.7381,6.0653,False,cc-3707,Diff_Avg_Min
-0.1% DMSO,50 µM Torin2,-35.4848,0.0,-46.3866,-24.5831,True,cc-3707,Diff_Avg_Min
-0.1% DMSO,water,-2.4788,0.9915,-13.3805,8.4229,False,cc-3707,Diff_Avg_Min
-50 µM ATP,50 µM Dynarrestin,-7.2242,0.3529,-18.1259,3.6775,False,cc-3707,Diff_Avg_Min
-50 µM ATP,50 µM Ibudilast,-38.2121,0.0,-49.1138,-27.3104,True,cc-3707,Diff_Avg_Min
-50 µM ATP,50 µM Linsitinib,-33.5515,0.0,-44.4532,-22.6498,True,cc-3707,Diff_Avg_Min
-50 µM ATP,50 µM TAK-063,-10.7576,0.0545,-21.6593,0.1441,False,cc-3707,Diff_Avg_Min
-50 µM ATP,50 µM Torin2,-41.4061,0.0,-52.3078,-30.5044,True,cc-3707,Diff_Avg_Min
-50 µM ATP,water,-8.4,0.2021,-19.3017,2.5017,False,cc-3707,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Ibudilast,-30.9879,0.0,-41.8896,-20.0862,True,cc-3707,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Linsitinib,-26.3273,0.0,-37.229,-15.4256,True,cc-3707,Diff_Avg_Min
-50 µM Dynarrestin,50 µM TAK-063,-3.5333,0.9423,-14.435,7.3684,False,cc-3707,Diff_Avg_Min
-50 µM Dynarrestin,50 µM Torin2,-34.1818,0.0,-45.0835,-23.2801,True,cc-3707,Diff_Avg_Min
-50 µM Dynarrestin,water,-1.1758,0.9999,-12.0775,9.7259,False,cc-3707,Diff_Avg_Min
-50 µM Ibudilast,50 µM Linsitinib,4.6606,0.8069,-6.2411,15.5623,False,cc-3707,Diff_Avg_Min
-50 µM Ibudilast,50 µM TAK-063,27.4545,0.0,16.5528,38.3563,True,cc-3707,Diff_Avg_Min
-50 µM Ibudilast,50 µM Torin2,-3.1939,0.9653,-14.0956,7.7078,False,cc-3707,Diff_Avg_Min
-50 µM Ibudilast,water,29.8121,0.0,18.9104,40.7138,True,cc-3707,Diff_Avg_Min
-50 µM Linsitinib,50 µM TAK-063,22.7939,0.0,11.8922,33.6956,True,cc-3707,Diff_Avg_Min
-50 µM Linsitinib,50 µM Torin2,-7.8545,0.2645,-18.7563,3.0472,False,cc-3707,Diff_Avg_Min
-50 µM Linsitinib,water,25.1515,0.0,14.2498,36.0532,True,cc-3707,Diff_Avg_Min
-50 µM TAK-063,50 µM Torin2,-30.6485,0.0,-41.5502,-19.7468,True,cc-3707,Diff_Avg_Min
-50 µM TAK-063,water,2.3576,0.9937,-8.5441,13.2593,False,cc-3707,Diff_Avg_Min
-50 µM Torin2,water,33.0061,0.0,22.1044,43.9078,True,cc-3707,Diff_Avg_Min
-0.1% DMSO,50 µM ATP,3.7738,0.0,2.1303,5.4172,True,cc-3707,Frac_Avg_Min
-0.1% DMSO,50 µM Dynarrestin,2.74,0.0006,1.0965,4.3834,True,cc-3707,Frac_Avg_Min
-0.1% DMSO,50 µM Ibudilast,-4.0261,0.0,-5.6695,-2.3827,True,cc-3707,Frac_Avg_Min
-0.1% DMSO,50 µM Linsitinib,-3.9738,0.0,-5.6173,-2.3304,True,cc-3707,Frac_Avg_Min
-0.1% DMSO,50 µM TAK-063,2.1599,0.0061,0.5165,3.8033,True,cc-3707,Frac_Avg_Min
-0.1% DMSO,50 µM Torin2,-4.3159,0.0,-5.9594,-2.6725,True,cc-3707,Frac_Avg_Min
-0.1% DMSO,water,1.2982,0.1813,-0.3452,2.9416,False,cc-3707,Frac_Avg_Min
-50 µM ATP,50 µM Dynarrestin,-1.0338,0.4119,-2.6772,0.6096,False,cc-3707,Frac_Avg_Min
-50 µM ATP,50 µM Ibudilast,-7.7999,0.0,-9.4433,-6.1565,True,cc-3707,Frac_Avg_Min
-50 µM ATP,50 µM Linsitinib,-7.7476,0.0,-9.391,-6.1042,True,cc-3707,Frac_Avg_Min
-50 µM ATP,50 µM TAK-063,-1.6139,0.0562,-3.2573,0.0295,False,cc-3707,Frac_Avg_Min
-50 µM ATP,50 µM Torin2,-8.0897,0.0,-9.7331,-6.4463,True,cc-3707,Frac_Avg_Min
-50 µM ATP,water,-2.4755,0.0017,-4.119,-0.8321,True,cc-3707,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Ibudilast,-6.7661,0.0,-8.4095,-5.1227,True,cc-3707,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Linsitinib,-6.7138,0.0,-8.3572,-5.0704,True,cc-3707,Frac_Avg_Min
-50 µM Dynarrestin,50 µM TAK-063,-0.5801,0.9136,-2.2235,1.0633,False,cc-3707,Frac_Avg_Min
-50 µM Dynarrestin,50 µM Torin2,-7.0559,0.0,-8.6993,-5.4125,True,cc-3707,Frac_Avg_Min
-50 µM Dynarrestin,water,-1.4417,0.1084,-3.0852,0.2017,False,cc-3707,Frac_Avg_Min
-50 µM Ibudilast,50 µM Linsitinib,0.0523,1.0,-1.5911,1.6957,False,cc-3707,Frac_Avg_Min
-50 µM Ibudilast,50 µM TAK-063,6.186,0.0,4.5426,7.8294,True,cc-3707,Frac_Avg_Min
-50 µM Ibudilast,50 µM Torin2,-0.2898,0.9982,-1.9333,1.3536,False,cc-3707,Frac_Avg_Min
-50 µM Ibudilast,water,5.3243,0.0,3.6809,6.9678,True,cc-3707,Frac_Avg_Min
-50 µM Linsitinib,50 µM TAK-063,6.1337,0.0,4.4903,7.7771,True,cc-3707,Frac_Avg_Min
-50 µM Linsitinib,50 µM Torin2,-0.3421,0.995,-1.9855,1.3013,False,cc-3707,Frac_Avg_Min
-50 µM Linsitinib,water,5.272,0.0,3.6286,6.9155,True,cc-3707,Frac_Avg_Min
-50 µM TAK-063,50 µM Torin2,-6.4758,0.0,-8.1193,-4.8324,True,cc-3707,Frac_Avg_Min
-50 µM TAK-063,water,-0.8617,0.6197,-2.5051,0.7818,False,cc-3707,Frac_Avg_Min
-50 µM Torin2,water,5.6142,0.0,3.9707,7.2576,True,cc-3707,Frac_Avg_Min
+0.1% DMSO,50 µM ATP,-6.8485,0.8037,-22.7989,9.1019,False,CC-125,Min_Intensity
+0.1% DMSO,50 µM Dynarrestin,-16.8788,0.0342,-32.8292,-0.9284,True,CC-125,Min_Intensity
+0.1% DMSO,50 µM Ibudilast,-21.7879,0.0043,-37.7383,-5.8375,True,CC-125,Min_Intensity
+0.1% DMSO,50 µM Linsitinib,-19.8485,0.0098,-35.7989,-3.8981,True,CC-125,Min_Intensity
+0.1% DMSO,50 µM TAK-063,-16.8788,0.0342,-32.8292,-0.9284,True,CC-125,Min_Intensity
+0.1% DMSO,50 µM Torin2,3.2727,0.9954,-12.6777,19.2231,False,CC-125,Min_Intensity
+0.1% DMSO,water,-16.9697,0.0329,-32.9201,-1.0193,True,CC-125,Min_Intensity
+50 µM ATP,50 µM Dynarrestin,-10.0303,0.4122,-25.9807,5.9201,False,CC-125,Min_Intensity
+50 µM ATP,50 µM Ibudilast,-14.9394,0.075,-30.8898,1.011,False,CC-125,Min_Intensity
+50 µM ATP,50 µM Linsitinib,-13.0,0.157,-28.9504,2.9504,False,CC-125,Min_Intensity
+50 µM ATP,50 µM TAK-063,-10.0303,0.4122,-25.9807,5.9201,False,CC-125,Min_Intensity
+50 µM ATP,50 µM Torin2,10.1212,0.4019,-5.8292,26.0716,False,CC-125,Min_Intensity
+50 µM ATP,water,-10.1212,0.4019,-26.0716,5.8292,False,CC-125,Min_Intensity
+50 µM Dynarrestin,50 µM Ibudilast,-4.9091,0.9554,-20.8595,11.0413,False,CC-125,Min_Intensity
+50 µM Dynarrestin,50 µM Linsitinib,-2.9697,0.9974,-18.9201,12.9807,False,CC-125,Min_Intensity
+50 µM Dynarrestin,50 µM TAK-063,0.0,1.0,-15.9504,15.9504,False,CC-125,Min_Intensity
+50 µM Dynarrestin,50 µM Torin2,20.1515,0.0086,4.2011,36.1019,True,CC-125,Min_Intensity
+50 µM Dynarrestin,water,-0.0909,1.0,-16.0413,15.8595,False,CC-125,Min_Intensity
+50 µM Ibudilast,50 µM Linsitinib,1.9394,0.9998,-14.011,17.8898,False,CC-125,Min_Intensity
+50 µM Ibudilast,50 µM TAK-063,4.9091,0.9554,-11.0413,20.8595,False,CC-125,Min_Intensity
+50 µM Ibudilast,50 µM Torin2,25.0606,0.0011,9.1102,41.011,True,CC-125,Min_Intensity
+50 µM Ibudilast,water,4.8182,0.9594,-11.1322,20.7686,False,CC-125,Min_Intensity
+50 µM Linsitinib,50 µM TAK-063,2.9697,0.9974,-12.9807,18.9201,False,CC-125,Min_Intensity
+50 µM Linsitinib,50 µM Torin2,23.1212,0.0025,7.1708,39.0716,True,CC-125,Min_Intensity
+50 µM Linsitinib,water,2.8788,0.9979,-13.0716,18.8292,False,CC-125,Min_Intensity
+50 µM TAK-063,50 µM Torin2,20.1515,0.0086,4.2011,36.1019,True,CC-125,Min_Intensity
+50 µM TAK-063,water,-0.0909,1.0,-16.0413,15.8595,False,CC-125,Min_Intensity
+50 µM Torin2,water,-20.2424,0.0083,-36.1928,-4.292,True,CC-125,Min_Intensity
+0.1% DMSO,50 µM ATP,5.6788,0.1901,-1.5882,12.9457,False,CC-125,Diff_Avg_Min
+0.1% DMSO,50 µM Dynarrestin,0.3576,1.0,-6.9094,7.6245,False,CC-125,Diff_Avg_Min
+0.1% DMSO,50 µM Ibudilast,-2.1939,0.9595,-9.4609,5.073,False,CC-125,Diff_Avg_Min
+0.1% DMSO,50 µM Linsitinib,19.2848,0.0,12.0179,26.5518,True,CC-125,Diff_Avg_Min
+0.1% DMSO,50 µM TAK-063,1.8848,0.982,-5.3821,9.1518,False,CC-125,Diff_Avg_Min
+0.1% DMSO,50 µM Torin2,-1.8606,0.9832,-9.1275,5.4063,False,CC-125,Diff_Avg_Min
+0.1% DMSO,water,0.9333,0.9998,-6.3336,8.2003,False,CC-125,Diff_Avg_Min
+50 µM ATP,50 µM Dynarrestin,-5.3212,0.2487,-12.5882,1.9457,False,CC-125,Diff_Avg_Min
+50 µM ATP,50 µM Ibudilast,-7.8727,0.0289,-15.1397,-0.6058,True,CC-125,Diff_Avg_Min
+50 µM ATP,50 µM Linsitinib,13.6061,0.0002,6.3391,20.873,True,CC-125,Diff_Avg_Min
+50 µM ATP,50 µM TAK-063,-3.7939,0.6243,-11.0609,3.473,False,CC-125,Diff_Avg_Min
+50 µM ATP,50 µM Torin2,-7.5394,0.0392,-14.8063,-0.2725,True,CC-125,Diff_Avg_Min
+50 µM ATP,water,-4.7455,0.3693,-12.0124,2.5215,False,CC-125,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Ibudilast,-2.5515,0.9156,-9.8185,4.7154,False,CC-125,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Linsitinib,18.9273,0.0,11.6603,26.1942,True,CC-125,Diff_Avg_Min
+50 µM Dynarrestin,50 µM TAK-063,1.5273,0.9947,-5.7397,8.7942,False,CC-125,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Torin2,-2.2182,0.9572,-9.4851,5.0488,False,CC-125,Diff_Avg_Min
+50 µM Dynarrestin,water,0.5758,1.0,-6.6912,7.8427,False,CC-125,Diff_Avg_Min
+50 µM Ibudilast,50 µM Linsitinib,21.4788,0.0,14.2118,28.7457,True,CC-125,Diff_Avg_Min
+50 µM Ibudilast,50 µM TAK-063,4.0788,0.5438,-3.1882,11.3457,False,CC-125,Diff_Avg_Min
+50 µM Ibudilast,50 µM Torin2,0.3333,1.0,-6.9336,7.6003,False,CC-125,Diff_Avg_Min
+50 µM Ibudilast,water,3.1273,0.802,-4.1397,10.3942,False,CC-125,Diff_Avg_Min
+50 µM Linsitinib,50 µM TAK-063,-17.4,0.0,-24.6669,-10.1331,True,CC-125,Diff_Avg_Min
+50 µM Linsitinib,50 µM Torin2,-21.1455,0.0,-28.4124,-13.8785,True,CC-125,Diff_Avg_Min
+50 µM Linsitinib,water,-18.3515,0.0,-25.6185,-11.0846,True,CC-125,Diff_Avg_Min
+50 µM TAK-063,50 µM Torin2,-3.7455,0.638,-11.0124,3.5215,False,CC-125,Diff_Avg_Min
+50 µM TAK-063,water,-0.9515,0.9997,-8.2185,6.3154,False,CC-125,Diff_Avg_Min
+50 µM Torin2,water,2.7939,0.874,-4.473,10.0609,False,CC-125,Diff_Avg_Min
+0.1% DMSO,50 µM ATP,0.1607,0.7718,-0.1985,0.5199,False,CC-125,Frac_Avg_Min
+0.1% DMSO,50 µM Dynarrestin,0.1186,0.9368,-0.2406,0.4779,False,CC-125,Frac_Avg_Min
+0.1% DMSO,50 µM Ibudilast,0.0326,1.0,-0.3266,0.3918,False,CC-125,Frac_Avg_Min
+0.1% DMSO,50 µM Linsitinib,0.776,0.0,0.4168,1.1353,True,CC-125,Frac_Avg_Min
+0.1% DMSO,50 µM TAK-063,0.1625,0.7626,-0.1967,0.5217,False,CC-125,Frac_Avg_Min
+0.1% DMSO,50 µM Torin2,-0.0419,0.9999,-0.4012,0.3173,False,CC-125,Frac_Avg_Min
+0.1% DMSO,water,0.1469,0.8375,-0.2123,0.5061,False,CC-125,Frac_Avg_Min
+50 µM ATP,50 µM Dynarrestin,-0.0421,0.9999,-0.4013,0.3172,False,CC-125,Frac_Avg_Min
+50 µM ATP,50 µM Ibudilast,-0.1281,0.9094,-0.4873,0.2311,False,CC-125,Frac_Avg_Min
+50 µM ATP,50 µM Linsitinib,0.6154,0.0004,0.2561,0.9746,True,CC-125,Frac_Avg_Min
+50 µM ATP,50 µM TAK-063,0.0018,1.0,-0.3574,0.361,False,CC-125,Frac_Avg_Min
+50 µM ATP,50 µM Torin2,-0.2026,0.5381,-0.5618,0.1566,False,CC-125,Frac_Avg_Min
+50 µM ATP,water,-0.0138,1.0,-0.373,0.3454,False,CC-125,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Ibudilast,-0.0861,0.9885,-0.4453,0.2732,False,CC-125,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Linsitinib,0.6574,0.0002,0.2982,1.0166,True,CC-125,Frac_Avg_Min
+50 µM Dynarrestin,50 µM TAK-063,0.0438,0.9998,-0.3154,0.4031,False,CC-125,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Torin2,-0.1606,0.7724,-0.5198,0.1986,False,CC-125,Frac_Avg_Min
+50 µM Dynarrestin,water,0.0283,1.0,-0.3309,0.3875,False,CC-125,Frac_Avg_Min
+50 µM Ibudilast,50 µM Linsitinib,0.7435,0.0,0.3843,1.1027,True,CC-125,Frac_Avg_Min
+50 µM Ibudilast,50 µM TAK-063,0.1299,0.9036,-0.2293,0.4891,False,CC-125,Frac_Avg_Min
+50 µM Ibudilast,50 µM Torin2,-0.0745,0.9951,-0.4337,0.2847,False,CC-125,Frac_Avg_Min
+50 µM Ibudilast,water,0.1143,0.9472,-0.2449,0.4736,False,CC-125,Frac_Avg_Min
+50 µM Linsitinib,50 µM TAK-063,-0.6136,0.0005,-0.9728,-0.2544,True,CC-125,Frac_Avg_Min
+50 µM Linsitinib,50 µM Torin2,-0.818,0.0,-1.1772,-0.4588,True,CC-125,Frac_Avg_Min
+50 µM Linsitinib,water,-0.6291,0.0003,-0.9884,-0.2699,True,CC-125,Frac_Avg_Min
+50 µM TAK-063,50 µM Torin2,-0.2044,0.5281,-0.5636,0.1548,False,CC-125,Frac_Avg_Min
+50 µM TAK-063,water,-0.0156,1.0,-0.3748,0.3437,False,CC-125,Frac_Avg_Min
+50 µM Torin2,water,0.1888,0.6168,-0.1704,0.5481,False,CC-125,Frac_Avg_Min
+0.1% DMSO,50 µM ATP,2.5758,0.8131,-3.5009,8.6524,False,CC-2670,Min_Intensity
+0.1% DMSO,50 µM Dynarrestin,-1.3636,0.9921,-7.4403,4.713,False,CC-2670,Min_Intensity
+0.1% DMSO,50 µM Ibudilast,-26.3636,0.0,-32.4403,-20.287,True,CC-2670,Min_Intensity
+0.1% DMSO,50 µM Linsitinib,-30.5455,0.0,-36.6221,-24.4688,True,CC-2670,Min_Intensity
+0.1% DMSO,50 µM TAK-063,-14.6364,0.0,-20.713,-8.5597,True,CC-2670,Min_Intensity
+0.1% DMSO,50 µM Torin2,8.697,0.0028,2.6203,14.7736,True,CC-2670,Min_Intensity
+0.1% DMSO,water,-5.2121,0.122,-11.2887,0.8645,False,CC-2670,Min_Intensity
+50 µM ATP,50 µM Dynarrestin,-3.9394,0.3775,-10.016,2.1372,False,CC-2670,Min_Intensity
+50 µM ATP,50 µM Ibudilast,-28.9394,0.0,-35.016,-22.8628,True,CC-2670,Min_Intensity
+50 µM ATP,50 µM Linsitinib,-33.1212,0.0,-39.1978,-27.0446,True,CC-2670,Min_Intensity
+50 µM ATP,50 µM TAK-063,-17.2121,0.0,-23.2887,-11.1355,True,CC-2670,Min_Intensity
+50 µM ATP,50 µM Torin2,6.1212,0.0477,0.0446,12.1978,True,CC-2670,Min_Intensity
+50 µM ATP,water,-7.7879,0.0076,-13.8645,-1.7113,True,CC-2670,Min_Intensity
+50 µM Dynarrestin,50 µM Ibudilast,-25.0,0.0,-31.0766,-18.9234,True,CC-2670,Min_Intensity
+50 µM Dynarrestin,50 µM Linsitinib,-29.1818,0.0,-35.2584,-23.1052,True,CC-2670,Min_Intensity
+50 µM Dynarrestin,50 µM TAK-063,-13.2727,0.0,-19.3493,-7.1961,True,CC-2670,Min_Intensity
+50 µM Dynarrestin,50 µM Torin2,10.0606,0.0006,3.984,16.1372,True,CC-2670,Min_Intensity
+50 µM Dynarrestin,water,-3.8485,0.4041,-9.9251,2.2281,False,CC-2670,Min_Intensity
+50 µM Ibudilast,50 µM Linsitinib,-4.1818,0.3118,-10.2584,1.8948,False,CC-2670,Min_Intensity
+50 µM Ibudilast,50 µM TAK-063,11.7273,0.0001,5.6507,17.8039,True,CC-2670,Min_Intensity
+50 µM Ibudilast,50 µM Torin2,35.0606,0.0,28.984,41.1372,True,CC-2670,Min_Intensity
+50 µM Ibudilast,water,21.1515,0.0,15.0749,27.2281,True,CC-2670,Min_Intensity
+50 µM Linsitinib,50 µM TAK-063,15.9091,0.0,9.8325,21.9857,True,CC-2670,Min_Intensity
+50 µM Linsitinib,50 µM Torin2,39.2424,0.0,33.1658,45.319,True,CC-2670,Min_Intensity
+50 µM Linsitinib,water,25.3333,0.0,19.2567,31.41,True,CC-2670,Min_Intensity
+50 µM TAK-063,50 µM Torin2,23.3333,0.0,17.2567,29.41,True,CC-2670,Min_Intensity
+50 µM TAK-063,water,9.4242,0.0013,3.3476,15.5009,True,CC-2670,Min_Intensity
+50 µM Torin2,water,-13.9091,0.0,-19.9857,-7.8325,True,CC-2670,Min_Intensity
+0.1% DMSO,50 µM ATP,-1.8061,0.9992,-13.4521,9.84,False,CC-2670,Diff_Avg_Min
+0.1% DMSO,50 µM Dynarrestin,-10.1273,0.1136,-21.7733,1.5188,False,CC-2670,Diff_Avg_Min
+0.1% DMSO,50 µM Ibudilast,6.5758,0.537,-5.0703,18.2218,False,CC-2670,Diff_Avg_Min
+0.1% DMSO,50 µM Linsitinib,31.4,0.0,19.754,43.046,True,CC-2670,Diff_Avg_Min
+0.1% DMSO,50 µM TAK-063,1.5576,0.9997,-10.0885,13.2036,False,CC-2670,Diff_Avg_Min
+0.1% DMSO,50 µM Torin2,-12.3333,0.034,-23.9794,-0.6873,True,CC-2670,Diff_Avg_Min
+0.1% DMSO,water,-7.0848,0.4506,-18.7309,4.5612,False,CC-2670,Diff_Avg_Min
+50 µM ATP,50 µM Dynarrestin,-8.3212,0.2729,-19.9672,3.3248,False,CC-2670,Diff_Avg_Min
+50 µM ATP,50 µM Ibudilast,8.3818,0.2656,-3.2642,20.0279,False,CC-2670,Diff_Avg_Min
+50 µM ATP,50 µM Linsitinib,33.2061,0.0,21.56,44.8521,True,CC-2670,Diff_Avg_Min
+50 µM ATP,50 µM TAK-063,3.3636,0.9678,-8.2824,15.0097,False,CC-2670,Diff_Avg_Min
+50 µM ATP,50 µM Torin2,-10.5273,0.092,-22.1733,1.1188,False,CC-2670,Diff_Avg_Min
+50 µM ATP,water,-5.2788,0.7608,-16.9248,6.3672,False,CC-2670,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Ibudilast,16.703,0.0027,5.057,28.3491,True,CC-2670,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Linsitinib,41.5273,0.0,29.8812,53.1733,True,CC-2670,Diff_Avg_Min
+50 µM Dynarrestin,50 µM TAK-063,11.6848,0.0489,0.0388,23.3309,True,CC-2670,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Torin2,-2.2061,0.9972,-13.8521,9.44,False,CC-2670,Diff_Avg_Min
+50 µM Dynarrestin,water,3.0424,0.9813,-8.6036,14.6885,False,CC-2670,Diff_Avg_Min
+50 µM Ibudilast,50 µM Linsitinib,24.8242,0.0,13.1782,36.4703,True,CC-2670,Diff_Avg_Min
+50 µM Ibudilast,50 µM TAK-063,-5.0182,0.8011,-16.6642,6.6279,False,CC-2670,Diff_Avg_Min
+50 µM Ibudilast,50 µM Torin2,-18.9091,0.0008,-30.5551,-7.2631,True,CC-2670,Diff_Avg_Min
+50 µM Ibudilast,water,-13.6606,0.0159,-25.3066,-2.0146,True,CC-2670,Diff_Avg_Min
+50 µM Linsitinib,50 µM TAK-063,-29.8424,0.0,-41.4885,-18.1964,True,CC-2670,Diff_Avg_Min
+50 µM Linsitinib,50 µM Torin2,-43.7333,0.0,-55.3794,-32.0873,True,CC-2670,Diff_Avg_Min
+50 µM Linsitinib,water,-38.4848,0.0,-50.1309,-26.8388,True,CC-2670,Diff_Avg_Min
+50 µM TAK-063,50 µM Torin2,-13.8909,0.0139,-25.5369,-2.2449,True,CC-2670,Diff_Avg_Min
+50 µM TAK-063,water,-8.6424,0.236,-20.2885,3.0036,False,CC-2670,Diff_Avg_Min
+50 µM Torin2,water,5.2485,0.7656,-6.3976,16.8945,False,CC-2670,Diff_Avg_Min
+0.1% DMSO,50 µM ATP,-0.074,1.0,-1.6565,1.5085,False,CC-2670,Frac_Avg_Min
+0.1% DMSO,50 µM Dynarrestin,-0.2615,0.9988,-1.844,1.321,False,CC-2670,Frac_Avg_Min
+0.1% DMSO,50 µM Ibudilast,1.683,0.033,0.1005,3.2655,True,CC-2670,Frac_Avg_Min
+0.1% DMSO,50 µM Linsitinib,5.7961,0.0,4.2136,7.3786,True,CC-2670,Frac_Avg_Min
+0.1% DMSO,50 µM TAK-063,0.3689,0.9902,-1.2136,1.9514,False,CC-2670,Frac_Avg_Min
+0.1% DMSO,50 µM Torin2,-0.346,0.9932,-1.9285,1.2365,False,CC-2670,Frac_Avg_Min
+0.1% DMSO,water,-0.1479,1.0,-1.7304,1.4346,False,CC-2670,Frac_Avg_Min
+50 µM ATP,50 µM Dynarrestin,-0.1875,0.9999,-1.77,1.395,False,CC-2670,Frac_Avg_Min
+50 µM ATP,50 µM Ibudilast,1.757,0.0242,0.1745,3.3395,True,CC-2670,Frac_Avg_Min
+50 µM ATP,50 µM Linsitinib,5.8701,0.0,4.2876,7.4526,True,CC-2670,Frac_Avg_Min
+50 µM ATP,50 µM TAK-063,0.4429,0.9727,-1.1396,2.0254,False,CC-2670,Frac_Avg_Min
+50 µM ATP,50 µM Torin2,-0.272,0.9985,-1.8545,1.3106,False,CC-2670,Frac_Avg_Min
+50 µM ATP,water,-0.0739,1.0,-1.6564,1.5086,False,CC-2670,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Ibudilast,1.9445,0.0109,0.362,3.527,True,CC-2670,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Linsitinib,6.0576,0.0,4.4751,7.6402,True,CC-2670,Frac_Avg_Min
+50 µM Dynarrestin,50 µM TAK-063,0.6305,0.8538,-0.9521,2.213,False,CC-2670,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Torin2,-0.0844,1.0,-1.6669,1.4981,False,CC-2670,Frac_Avg_Min
+50 µM Dynarrestin,water,0.1136,1.0,-1.4689,1.6961,False,CC-2670,Frac_Avg_Min
+50 µM Ibudilast,50 µM Linsitinib,4.1131,0.0,2.5306,5.6956,True,CC-2670,Frac_Avg_Min
+50 µM Ibudilast,50 µM TAK-063,-1.3141,0.1435,-2.8966,0.2684,False,CC-2670,Frac_Avg_Min
+50 µM Ibudilast,50 µM Torin2,-2.029,0.0076,-3.6115,-0.4465,True,CC-2670,Frac_Avg_Min
+50 µM Ibudilast,water,-1.8309,0.0177,-3.4134,-0.2484,True,CC-2670,Frac_Avg_Min
+50 µM Linsitinib,50 µM TAK-063,-5.4272,0.0,-7.0097,-3.8447,True,CC-2670,Frac_Avg_Min
+50 µM Linsitinib,50 µM Torin2,-6.1421,0.0,-7.7246,-4.5596,True,CC-2670,Frac_Avg_Min
+50 µM Linsitinib,water,-5.944,0.0,-7.5265,-4.3615,True,CC-2670,Frac_Avg_Min
+50 µM TAK-063,50 µM Torin2,-0.7149,0.7636,-2.2974,0.8676,False,CC-2670,Frac_Avg_Min
+50 µM TAK-063,water,-0.5168,0.9401,-2.0993,1.0657,False,CC-2670,Frac_Avg_Min
+50 µM Torin2,water,0.1981,0.9998,-1.3844,1.7806,False,CC-2670,Frac_Avg_Min
+0.1% DMSO,50 µM ATP,-3.4545,0.0054,-6.0489,-0.8602,True,CC-3707,Min_Intensity
+0.1% DMSO,50 µM Dynarrestin,-3.697,0.0029,-6.2913,-1.1026,True,CC-3707,Min_Intensity
+0.1% DMSO,50 µM Ibudilast,11.6364,0.0,9.042,14.2307,True,CC-3707,Min_Intensity
+0.1% DMSO,50 µM Linsitinib,19.9091,0.0,17.3147,22.5035,True,CC-3707,Min_Intensity
+0.1% DMSO,50 µM TAK-063,-3.7576,0.0025,-6.3519,-1.1632,True,CC-3707,Min_Intensity
+0.1% DMSO,50 µM Torin2,41.2424,0.0,38.6481,43.8368,True,CC-3707,Min_Intensity
+0.1% DMSO,water,-2.3939,0.0818,-4.9883,0.2004,False,CC-3707,Min_Intensity
+50 µM ATP,50 µM Dynarrestin,-0.2424,1.0,-2.8368,2.3519,False,CC-3707,Min_Intensity
+50 µM ATP,50 µM Ibudilast,15.0909,0.0,12.4965,17.6853,True,CC-3707,Min_Intensity
+50 µM ATP,50 µM Linsitinib,23.3636,0.0,20.7693,25.958,True,CC-3707,Min_Intensity
+50 µM ATP,50 µM TAK-063,-0.303,0.9999,-2.8974,2.2913,False,CC-3707,Min_Intensity
+50 µM ATP,50 µM Torin2,44.697,0.0,42.1026,47.2913,True,CC-3707,Min_Intensity
+50 µM ATP,water,1.0606,0.8378,-1.5338,3.655,False,CC-3707,Min_Intensity
+50 µM Dynarrestin,50 µM Ibudilast,15.3333,0.0,12.739,17.9277,True,CC-3707,Min_Intensity
+50 µM Dynarrestin,50 µM Linsitinib,23.6061,0.0,21.0117,26.2004,True,CC-3707,Min_Intensity
+50 µM Dynarrestin,50 µM TAK-063,-0.0606,1.0,-2.655,2.5338,False,CC-3707,Min_Intensity
+50 µM Dynarrestin,50 µM Torin2,44.9394,0.0,42.345,47.5338,True,CC-3707,Min_Intensity
+50 µM Dynarrestin,water,1.303,0.6648,-1.2913,3.8974,False,CC-3707,Min_Intensity
+50 µM Ibudilast,50 µM Linsitinib,8.2727,0.0,5.6784,10.8671,True,CC-3707,Min_Intensity
+50 µM Ibudilast,50 µM TAK-063,-15.3939,0.0,-17.9883,-12.7996,True,CC-3707,Min_Intensity
+50 µM Ibudilast,50 µM Torin2,29.6061,0.0,27.0117,32.2004,True,CC-3707,Min_Intensity
+50 µM Ibudilast,water,-14.0303,0.0,-16.6247,-11.4359,True,CC-3707,Min_Intensity
+50 µM Linsitinib,50 µM TAK-063,-23.6667,0.0,-26.261,-21.0723,True,CC-3707,Min_Intensity
+50 µM Linsitinib,50 µM Torin2,21.3333,0.0,18.739,23.9277,True,CC-3707,Min_Intensity
+50 µM Linsitinib,water,-22.303,0.0,-24.8974,-19.7087,True,CC-3707,Min_Intensity
+50 µM TAK-063,50 µM Torin2,45.0,0.0,42.4056,47.5944,True,CC-3707,Min_Intensity
+50 µM TAK-063,water,1.3636,0.617,-1.2307,3.958,False,CC-3707,Min_Intensity
+50 µM Torin2,water,-43.6364,0.0,-46.2307,-41.042,True,CC-3707,Min_Intensity
+0.1% DMSO,50 µM ATP,5.9212,0.5809,-4.9805,16.8229,False,CC-3707,Diff_Avg_Min
+0.1% DMSO,50 µM Dynarrestin,-1.303,0.9999,-12.2047,9.5987,False,CC-3707,Diff_Avg_Min
+0.1% DMSO,50 µM Ibudilast,-32.2909,0.0,-43.1926,-21.3892,True,CC-3707,Diff_Avg_Min
+0.1% DMSO,50 µM Linsitinib,-27.6303,0.0,-38.532,-16.7286,True,CC-3707,Diff_Avg_Min
+0.1% DMSO,50 µM TAK-063,-4.8364,0.7785,-15.7381,6.0653,False,CC-3707,Diff_Avg_Min
+0.1% DMSO,50 µM Torin2,-35.4848,0.0,-46.3866,-24.5831,True,CC-3707,Diff_Avg_Min
+0.1% DMSO,water,-2.4788,0.9915,-13.3805,8.4229,False,CC-3707,Diff_Avg_Min
+50 µM ATP,50 µM Dynarrestin,-7.2242,0.3529,-18.1259,3.6775,False,CC-3707,Diff_Avg_Min
+50 µM ATP,50 µM Ibudilast,-38.2121,0.0,-49.1138,-27.3104,True,CC-3707,Diff_Avg_Min
+50 µM ATP,50 µM Linsitinib,-33.5515,0.0,-44.4532,-22.6498,True,CC-3707,Diff_Avg_Min
+50 µM ATP,50 µM TAK-063,-10.7576,0.0545,-21.6593,0.1441,False,CC-3707,Diff_Avg_Min
+50 µM ATP,50 µM Torin2,-41.4061,0.0,-52.3078,-30.5044,True,CC-3707,Diff_Avg_Min
+50 µM ATP,water,-8.4,0.2021,-19.3017,2.5017,False,CC-3707,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Ibudilast,-30.9879,0.0,-41.8896,-20.0862,True,CC-3707,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Linsitinib,-26.3273,0.0,-37.229,-15.4256,True,CC-3707,Diff_Avg_Min
+50 µM Dynarrestin,50 µM TAK-063,-3.5333,0.9423,-14.435,7.3684,False,CC-3707,Diff_Avg_Min
+50 µM Dynarrestin,50 µM Torin2,-34.1818,0.0,-45.0835,-23.2801,True,CC-3707,Diff_Avg_Min
+50 µM Dynarrestin,water,-1.1758,0.9999,-12.0775,9.7259,False,CC-3707,Diff_Avg_Min
+50 µM Ibudilast,50 µM Linsitinib,4.6606,0.8069,-6.2411,15.5623,False,CC-3707,Diff_Avg_Min
+50 µM Ibudilast,50 µM TAK-063,27.4545,0.0,16.5528,38.3563,True,CC-3707,Diff_Avg_Min
+50 µM Ibudilast,50 µM Torin2,-3.1939,0.9653,-14.0956,7.7078,False,CC-3707,Diff_Avg_Min
+50 µM Ibudilast,water,29.8121,0.0,18.9104,40.7138,True,CC-3707,Diff_Avg_Min
+50 µM Linsitinib,50 µM TAK-063,22.7939,0.0,11.8922,33.6956,True,CC-3707,Diff_Avg_Min
+50 µM Linsitinib,50 µM Torin2,-7.8545,0.2645,-18.7563,3.0472,False,CC-3707,Diff_Avg_Min
+50 µM Linsitinib,water,25.1515,0.0,14.2498,36.0532,True,CC-3707,Diff_Avg_Min
+50 µM TAK-063,50 µM Torin2,-30.6485,0.0,-41.5502,-19.7468,True,CC-3707,Diff_Avg_Min
+50 µM TAK-063,water,2.3576,0.9937,-8.5441,13.2593,False,CC-3707,Diff_Avg_Min
+50 µM Torin2,water,33.0061,0.0,22.1044,43.9078,True,CC-3707,Diff_Avg_Min
+0.1% DMSO,50 µM ATP,3.7738,0.0,2.1303,5.4172,True,CC-3707,Frac_Avg_Min
+0.1% DMSO,50 µM Dynarrestin,2.74,0.0006,1.0965,4.3834,True,CC-3707,Frac_Avg_Min
+0.1% DMSO,50 µM Ibudilast,-4.0261,0.0,-5.6695,-2.3827,True,CC-3707,Frac_Avg_Min
+0.1% DMSO,50 µM Linsitinib,-3.9738,0.0,-5.6173,-2.3304,True,CC-3707,Frac_Avg_Min
+0.1% DMSO,50 µM TAK-063,2.1599,0.0061,0.5165,3.8033,True,CC-3707,Frac_Avg_Min
+0.1% DMSO,50 µM Torin2,-4.3159,0.0,-5.9594,-2.6725,True,CC-3707,Frac_Avg_Min
+0.1% DMSO,water,1.2982,0.1813,-0.3452,2.9416,False,CC-3707,Frac_Avg_Min
+50 µM ATP,50 µM Dynarrestin,-1.0338,0.4119,-2.6772,0.6096,False,CC-3707,Frac_Avg_Min
+50 µM ATP,50 µM Ibudilast,-7.7999,0.0,-9.4433,-6.1565,True,CC-3707,Frac_Avg_Min
+50 µM ATP,50 µM Linsitinib,-7.7476,0.0,-9.391,-6.1042,True,CC-3707,Frac_Avg_Min
+50 µM ATP,50 µM TAK-063,-1.6139,0.0562,-3.2573,0.0295,False,CC-3707,Frac_Avg_Min
+50 µM ATP,50 µM Torin2,-8.0897,0.0,-9.7331,-6.4463,True,CC-3707,Frac_Avg_Min
+50 µM ATP,water,-2.4755,0.0017,-4.119,-0.8321,True,CC-3707,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Ibudilast,-6.7661,0.0,-8.4095,-5.1227,True,CC-3707,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Linsitinib,-6.7138,0.0,-8.3572,-5.0704,True,CC-3707,Frac_Avg_Min
+50 µM Dynarrestin,50 µM TAK-063,-0.5801,0.9136,-2.2235,1.0633,False,CC-3707,Frac_Avg_Min
+50 µM Dynarrestin,50 µM Torin2,-7.0559,0.0,-8.6993,-5.4125,True,CC-3707,Frac_Avg_Min
+50 µM Dynarrestin,water,-1.4417,0.1084,-3.0852,0.2017,False,CC-3707,Frac_Avg_Min
+50 µM Ibudilast,50 µM Linsitinib,0.0523,1.0,-1.5911,1.6957,False,CC-3707,Frac_Avg_Min
+50 µM Ibudilast,50 µM TAK-063,6.186,0.0,4.5426,7.8294,True,CC-3707,Frac_Avg_Min
+50 µM Ibudilast,50 µM Torin2,-0.2898,0.9982,-1.9333,1.3536,False,CC-3707,Frac_Avg_Min
+50 µM Ibudilast,water,5.3243,0.0,3.6809,6.9678,True,CC-3707,Frac_Avg_Min
+50 µM Linsitinib,50 µM TAK-063,6.1337,0.0,4.4903,7.7771,True,CC-3707,Frac_Avg_Min
+50 µM Linsitinib,50 µM Torin2,-0.3421,0.995,-1.9855,1.3013,False,CC-3707,Frac_Avg_Min
+50 µM Linsitinib,water,5.272,0.0,3.6286,6.9155,True,CC-3707,Frac_Avg_Min
+50 µM TAK-063,50 µM Torin2,-6.4758,0.0,-8.1193,-4.8324,True,CC-3707,Frac_Avg_Min
+50 µM TAK-063,water,-0.8617,0.6197,-2.5051,0.7818,False,CC-3707,Frac_Avg_Min
+50 µM Torin2,water,5.6142,0.0,3.9707,7.2576,True,CC-3707,Frac_Avg_Min

@@ -115,8 +115,6 @@ def main(zipfolder_filepath, extracted_folder_filepath, output_gif_filepath):
 
         4. ZIP File Handling: Extracts video files from a specified ZIP archive before processing.
 
-        5. Displaying Output: Displays the final GIF within a Jupyter notebook.
-
     Outputs:
 
         Animated GIF: A GIF created from the processed video frames, saved to the specified output
