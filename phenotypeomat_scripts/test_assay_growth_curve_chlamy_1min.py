@@ -3,11 +3,11 @@ import sys as sys
 sys.path.insert(
     0, "/home/arcadia/git/arcadia-phenotypomat/phenotyper/"
 )  # Add the path for phenotyper tools to the system path
-import time as tm  # Import to handle delays (e.g., between frames)
+import time as tm
 
-import cam_tools as ct  # Import camera tools for interacting with the Blackfly camera
-import serial as ser  # Import for serial communication (to control the LED and grow lights)
-from pyzbar.pyzbar import decode  # Import to decode barcodes from the images
+import cam_tools as ct 
+import serial as ser 
+from pyzbar.pyzbar import decode
 
 # Establish serial communication with the microcontroller (controls the LEDs and grow lights)
 dev = ser.Serial("/dev/ttyACM0")
