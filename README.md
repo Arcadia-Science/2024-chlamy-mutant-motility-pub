@@ -26,7 +26,7 @@ If you wish to also enable cell tracking capabilities to process the raw image d
 cd ..
 git clone https://github.com/Arcadia-Science/2024-unicellular-tracking.git
 cd 2024-unicellular-tracking
-conda install --file envs/dev.yml
+conda env update --file envs/dev.yml
 pip install -e .
 ```
 
