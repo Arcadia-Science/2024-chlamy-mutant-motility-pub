@@ -11,9 +11,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 REPO_ROOT_DIRPATH = Path(__file__).parents[2]
 DEFAULT_ZIPFOLDER_FILEPATH = (
-    ROOT_DIRECTORY / "data/vbottom_motility_assay/vbottom_motility_strains.zip"
+    REPO_ROOT_DIRPATH / "data/vbottom_motility_assay/vbottom_motility_strains.zip"
 )
-DEFAULT_OUTPUT_GIF_FILEPATH = ROOT_DIRECTORY / "results/vbottom_strain_output_video.gif"
+DEFAULT_OUTPUT_GIF_FILEPATH = REPO_ROOT_DIRPATH / "results/vbottom_strain_output_video.gif"
 
 zipfolder_filepath_option = click.option(
     "--zipfolder",
