@@ -9,7 +9,7 @@ import imageio
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT_DIRECTORY = Path(__file__).parents[2]
+REPO_ROOT_DIRPATH = Path(__file__).parents[2]
 DEFAULT_ZIPFOLDER_FILEPATH = (
     ROOT_DIRECTORY / "data/vbottom_motility_assay/vbottom_motility_strains.zip"
 )
