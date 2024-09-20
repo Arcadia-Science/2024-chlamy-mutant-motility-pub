@@ -48,7 +48,10 @@ def add_timestamp(img, timestamp):
     draw = ImageDraw.Draw(pil_img)
     font_path = "/Library/Fonts/Arial.ttf"
     font_size = 32
-    font = ImageFont.truetype(font_path, font_size)
+    try:
+        font = ImageFont.truetype(font_path, font_size)
+    except:
+        font = ImageFont.load_default(font_size)
     text_position = (10, 10)
     text_color = (255, 255, 255)
     draw.text(text_position, timestamp, font=font, fill=text_color)
