@@ -50,7 +50,7 @@ def add_timestamp(img, timestamp):
     font_size = 32
     try:
         font = ImageFont.truetype(font_path, font_size)
-    except:
+    except OSError:
         font = ImageFont.load_default(font_size)
     text_position = (10, 10)
     text_color = (255, 255, 255)
