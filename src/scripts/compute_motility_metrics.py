@@ -7,9 +7,9 @@ from chlamytracker.tracking_metrics import TrajectoryCSVParser
 from natsort import natsorted
 from tqdm import tqdm
 
-ROOT_DIRECTORY = Path(__file__).parents[2]
-DEFAULT_INPUT_JSON_FILE = ROOT_DIRECTORY / "data/experimental_parameters.json"
-DEFAULT_OUTPUT_DIRECTORY = ROOT_DIRECTORY / "data/"
+REPO_ROOT_DIRECTORY = Path(__file__).parents[2]
+DEFAULT_INPUT_JSON_FILE = REPO_ROOT_DIRECTORY / "data/experimental_parameters.json"
+DEFAULT_OUTPUT_DIRECTORY = REPO_ROOT_DIRECTORY / "data/"
 
 input_directory_argument = click.argument(
     "input_directory",
