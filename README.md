@@ -13,7 +13,7 @@ This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutan
 
 This repository uses conda to manage software environments and installations. If you do not already have conda installed, you can find operating system-specific instructions for installing miniconda [here](https://docs.anaconda.com/miniconda/). After installing conda, navigate to a directory where you would like to clone the repository, and run the following commands to create the pipeline run environment.
 
-Start by cloning the repository and installing the required dependencies into a fresh conda environment.
+Start by cloning the repository and installing the required dependencies into a fresh conda environment:
 ```{bash}
 git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
 cd 2024-chlamy-mutant-motility-pub
@@ -21,7 +21,7 @@ conda env create -n chlamy-mutant-motility --file envs/dev.yml
 conda activate chlamy-mutant-motility
 ```
 
-If you wish to also enable cell tracking capabilities to process the raw image data, install [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking).
+In order to enable cell tracking capabilities to process the raw image data or run the script `compute_motility_metrics.py`, you must also install the Python package within the repo [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). This can be done by running the following commands:
 ```{bash}
 cd ..
 git clone https://github.com/Arcadia-Science/2024-unicellular-tracking.git
