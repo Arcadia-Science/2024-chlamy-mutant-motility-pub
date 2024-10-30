@@ -8,6 +8,7 @@ dependencies:
   - click=8.1.7
   - scikit-image=0.22.0
   - scikit-learn=1.4.2
+  - scikit-posthocs=0.10.0
   - python=3.12
   - jupyterlab=4.1.8
   - numpy=1.26.4
