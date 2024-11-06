@@ -1,0 +1,373 @@
+Files	file_content	well_id	strain	drug	concentration
+single-cell-motility-assay/WellA01_ChannelJOBS 10X red lida_Seq0000.nd2	raw brightfield time-lapse microscopy data	WellA01	CC-125	tor	12.5
+single-cell-motility-assay/WellA02_ChannelJOBS 10X red lida_Seq0001.nd2	raw brightfield time-lapse microscopy data	WellA02	CC-125	tak	12.5
+single-cell-motility-assay/WellA03_ChannelJOBS 10X red lida_Seq0002.nd2	raw brightfield time-lapse microscopy data	WellA03	CC-125	lin	12.5
+single-cell-motility-assay/WellA04_ChannelJOBS 10X red lida_Seq0003.nd2	raw brightfield time-lapse microscopy data	WellA04	CC-125	ibu	12.5
+single-cell-motility-assay/WellA05_ChannelJOBS 10X red lida_Seq0004.nd2	raw brightfield time-lapse microscopy data	WellA05	CC-125	dyn	12.5
+single-cell-motility-assay/WellA06_ChannelJOBS 10X red lida_Seq0005.nd2	raw brightfield time-lapse microscopy data	WellA06	CC-125	atp	12.5
+single-cell-motility-assay/WellA07_ChannelJOBS 10X red lida_Seq0006.nd2	raw brightfield time-lapse microscopy data	WellA07	CC-125	dmso	12.5
+single-cell-motility-assay/WellA08_ChannelJOBS 10X red lida_Seq0007.nd2	raw brightfield time-lapse microscopy data	WellA08	CC-125	h2o	12.5
+single-cell-motility-assay/WellB01_ChannelJOBS 10X red lida_Seq0008.nd2	raw brightfield time-lapse microscopy data	WellB01	CC-125	tor	12.5
+single-cell-motility-assay/WellB02_ChannelJOBS 10X red lida_Seq0009.nd2	raw brightfield time-lapse microscopy data	WellB02	CC-125	tak	12.5
+single-cell-motility-assay/WellB03_ChannelJOBS 10X red lida_Seq0010.nd2	raw brightfield time-lapse microscopy data	WellB03	CC-125	lin	12.5
+single-cell-motility-assay/WellB04_ChannelJOBS 10X red lida_Seq0011.nd2	raw brightfield time-lapse microscopy data	WellB04	CC-125	ibu	12.5
+single-cell-motility-assay/WellB05_ChannelJOBS 10X red lida_Seq0012.nd2	raw brightfield time-lapse microscopy data	WellB05	CC-125	dyn	12.5
+single-cell-motility-assay/WellB06_ChannelJOBS 10X red lida_Seq0013.nd2	raw brightfield time-lapse microscopy data	WellB06	CC-125	atp	12.5
+single-cell-motility-assay/WellB07_ChannelJOBS 10X red lida_Seq0014.nd2	raw brightfield time-lapse microscopy data	WellB07	CC-125	dmso	12.5
+single-cell-motility-assay/WellB08_ChannelJOBS 10X red lida_Seq0015.nd2	raw brightfield time-lapse microscopy data	WellB08	CC-125	h2o	12.5
+single-cell-motility-assay/WellC01_ChannelJOBS 10X red lida_Seq0016.nd2	raw brightfield time-lapse microscopy data	WellC01	CC-2670	tor	12.5
+single-cell-motility-assay/WellC02_ChannelJOBS 10X red lida_Seq0017.nd2	raw brightfield time-lapse microscopy data	WellC02	CC-2670	tak	12.5
+single-cell-motility-assay/WellC03_ChannelJOBS 10X red lida_Seq0018.nd2	raw brightfield time-lapse microscopy data	WellC03	CC-2670	lin	12.5
+single-cell-motility-assay/WellC04_ChannelJOBS 10X red lida_Seq0019.nd2	raw brightfield time-lapse microscopy data	WellC04	CC-2670	ibu	12.5
+single-cell-motility-assay/WellC05_ChannelJOBS 10X red lida_Seq0020.nd2	raw brightfield time-lapse microscopy data	WellC05	CC-2670	dyn	12.5
+single-cell-motility-assay/WellC06_ChannelJOBS 10X red lida_Seq0021.nd2	raw brightfield time-lapse microscopy data	WellC06	CC-2670	atp	12.5
+single-cell-motility-assay/WellC07_ChannelJOBS 10X red lida_Seq0022.nd2	raw brightfield time-lapse microscopy data	WellC07	CC-2670	dmso	12.5
+single-cell-motility-assay/WellC08_ChannelJOBS 10X red lida_Seq0023.nd2	raw brightfield time-lapse microscopy data	WellC08	CC-2670	h2o	12.5
+single-cell-motility-assay/WellD01_ChannelJOBS 10X red lida_Seq0024.nd2	raw brightfield time-lapse microscopy data	WellD01	CC-2670	tor	12.5
+single-cell-motility-assay/WellD02_ChannelJOBS 10X red lida_Seq0025.nd2	raw brightfield time-lapse microscopy data	WellD02	CC-2670	tak	12.5
+single-cell-motility-assay/WellD03_ChannelJOBS 10X red lida_Seq0026.nd2	raw brightfield time-lapse microscopy data	WellD03	CC-2670	lin	12.5
+single-cell-motility-assay/WellD04_ChannelJOBS 10X red lida_Seq0027.nd2	raw brightfield time-lapse microscopy data	WellD04	CC-2670	ibu	12.5
+single-cell-motility-assay/WellD05_ChannelJOBS 10X red lida_Seq0028.nd2	raw brightfield time-lapse microscopy data	WellD05	CC-2670	dyn	12.5
+single-cell-motility-assay/WellD06_ChannelJOBS 10X red lida_Seq0029.nd2	raw brightfield time-lapse microscopy data	WellD06	CC-2670	atp	12.5
+single-cell-motility-assay/WellD07_ChannelJOBS 10X red lida_Seq0030.nd2	raw brightfield time-lapse microscopy data	WellD07	CC-2670	dmso	12.5
+single-cell-motility-assay/WellD08_ChannelJOBS 10X red lida_Seq0031.nd2	raw brightfield time-lapse microscopy data	WellD08	CC-2670	h2o	12.5
+single-cell-motility-assay/WellE01_ChannelJOBS 10X red lida_Seq0032.nd2	raw brightfield time-lapse microscopy data	WellE01	CC-3707	tor	12.5
+single-cell-motility-assay/WellE02_ChannelJOBS 10X red lida_Seq0033.nd2	raw brightfield time-lapse microscopy data	WellE02	CC-3707	tak	12.5
+single-cell-motility-assay/WellE03_ChannelJOBS 10X red lida_Seq0034.nd2	raw brightfield time-lapse microscopy data	WellE03	CC-3707	lin	12.5
+single-cell-motility-assay/WellE04_ChannelJOBS 10X red lida_Seq0035.nd2	raw brightfield time-lapse microscopy data	WellE04	CC-3707	ibu	12.5
+single-cell-motility-assay/WellE05_ChannelJOBS 10X red lida_Seq0036.nd2	raw brightfield time-lapse microscopy data	WellE05	CC-3707	dyn	12.5
+single-cell-motility-assay/WellE06_ChannelJOBS 10X red lida_Seq0037.nd2	raw brightfield time-lapse microscopy data	WellE06	CC-3707	atp	12.5
+single-cell-motility-assay/WellE07_ChannelJOBS 10X red lida_Seq0038.nd2	raw brightfield time-lapse microscopy data	WellE07	CC-3707	dmso	12.5
+single-cell-motility-assay/WellE08_ChannelJOBS 10X red lida_Seq0039.nd2	raw brightfield time-lapse microscopy data	WellE08	CC-3707	h2o	12.5
+single-cell-motility-assay/WellF01_ChannelJOBS 10X red lida_Seq0040.nd2	raw brightfield time-lapse microscopy data	WellF01	CC-3707	tor	12.5
+single-cell-motility-assay/WellF02_ChannelJOBS 10X red lida_Seq0041.nd2	raw brightfield time-lapse microscopy data	WellF02	CC-3707	tak	12.5
+single-cell-motility-assay/WellF03_ChannelJOBS 10X red lida_Seq0042.nd2	raw brightfield time-lapse microscopy data	WellF03	CC-3707	lin	12.5
+single-cell-motility-assay/WellF04_ChannelJOBS 10X red lida_Seq0043.nd2	raw brightfield time-lapse microscopy data	WellF04	CC-3707	ibu	12.5
+single-cell-motility-assay/WellF05_ChannelJOBS 10X red lida_Seq0044.nd2	raw brightfield time-lapse microscopy data	WellF05	CC-3707	dyn	12.5
+single-cell-motility-assay/WellF06_ChannelJOBS 10X red lida_Seq0045.nd2	raw brightfield time-lapse microscopy data	WellF06	CC-3707	atp	12.5
+single-cell-motility-assay/WellF07_ChannelJOBS 10X red lida_Seq0046.nd2	raw brightfield time-lapse microscopy data	WellF07	CC-3707	dmso	12.5
+single-cell-motility-assay/WellF08_ChannelJOBS 10X red lida_Seq0047.nd2	raw brightfield time-lapse microscopy data	WellF08	CC-3707	h2o	12.5
+single-cell-motility-assay/WellG01_ChannelJOBS 10X red lida_Seq0048.nd2	raw brightfield time-lapse microscopy data	WellG01	CC-125	tor	50.0
+single-cell-motility-assay/WellG02_ChannelJOBS 10X red lida_Seq0049.nd2	raw brightfield time-lapse microscopy data	WellG02	CC-125	tak	50.0
+single-cell-motility-assay/WellG03_ChannelJOBS 10X red lida_Seq0050.nd2	raw brightfield time-lapse microscopy data	WellG03	CC-125	lin	50.0
+single-cell-motility-assay/WellG04_ChannelJOBS 10X red lida_Seq0051.nd2	raw brightfield time-lapse microscopy data	WellG04	CC-125	ibu	50.0
+single-cell-motility-assay/WellG05_ChannelJOBS 10X red lida_Seq0052.nd2	raw brightfield time-lapse microscopy data	WellG05	CC-125	dyn	50.0
+single-cell-motility-assay/WellG06_ChannelJOBS 10X red lida_Seq0053.nd2	raw brightfield time-lapse microscopy data	WellG06	CC-125	atp	50.0
+single-cell-motility-assay/WellG07_ChannelJOBS 10X red lida_Seq0054.nd2	raw brightfield time-lapse microscopy data	WellG07	CC-125	dmso	50.0
+single-cell-motility-assay/WellG08_ChannelJOBS 10X red lida_Seq0055.nd2	raw brightfield time-lapse microscopy data	WellG08	CC-125	h2o	50.0
+single-cell-motility-assay/WellH01_ChannelJOBS 10X red lida_Seq0056.nd2	raw brightfield time-lapse microscopy data	WellH01	CC-125	tor	50.0
+single-cell-motility-assay/WellH02_ChannelJOBS 10X red lida_Seq0057.nd2	raw brightfield time-lapse microscopy data	WellH02	CC-125	tak	50.0
+single-cell-motility-assay/WellH03_ChannelJOBS 10X red lida_Seq0058.nd2	raw brightfield time-lapse microscopy data	WellH03	CC-125	lin	50.0
+single-cell-motility-assay/WellH04_ChannelJOBS 10X red lida_Seq0059.nd2	raw brightfield time-lapse microscopy data	WellH04	CC-125	ibu	50.0
+single-cell-motility-assay/WellH05_ChannelJOBS 10X red lida_Seq0060.nd2	raw brightfield time-lapse microscopy data	WellH05	CC-125	dyn	50.0
+single-cell-motility-assay/WellH06_ChannelJOBS 10X red lida_Seq0061.nd2	raw brightfield time-lapse microscopy data	WellH06	CC-125	atp	50.0
+single-cell-motility-assay/WellH07_ChannelJOBS 10X red lida_Seq0062.nd2	raw brightfield time-lapse microscopy data	WellH07	CC-125	dmso	50.0
+single-cell-motility-assay/WellH08_ChannelJOBS 10X red lida_Seq0063.nd2	raw brightfield time-lapse microscopy data	WellH08	CC-125	h2o	50.0
+single-cell-motility-assay/WellI01_ChannelJOBS 10X red lida_Seq0064.nd2	raw brightfield time-lapse microscopy data	WellI01	CC-2670	tor	50.0
+single-cell-motility-assay/WellI02_ChannelJOBS 10X red lida_Seq0065.nd2	raw brightfield time-lapse microscopy data	WellI02	CC-2670	tak	50.0
+single-cell-motility-assay/WellI03_ChannelJOBS 10X red lida_Seq0066.nd2	raw brightfield time-lapse microscopy data	WellI03	CC-2670	lin	50.0
+single-cell-motility-assay/WellI04_ChannelJOBS 10X red lida_Seq0067.nd2	raw brightfield time-lapse microscopy data	WellI04	CC-2670	ibu	50.0
+single-cell-motility-assay/WellI05_ChannelJOBS 10X red lida_Seq0068.nd2	raw brightfield time-lapse microscopy data	WellI05	CC-2670	dyn	50.0
+single-cell-motility-assay/WellI06_ChannelJOBS 10X red lida_Seq0069.nd2	raw brightfield time-lapse microscopy data	WellI06	CC-2670	atp	50.0
+single-cell-motility-assay/WellI07_ChannelJOBS 10X red lida_Seq0070.nd2	raw brightfield time-lapse microscopy data	WellI07	CC-2670	dmso	50.0
+single-cell-motility-assay/WellI08_ChannelJOBS 10X red lida_Seq0071.nd2	raw brightfield time-lapse microscopy data	WellI08	CC-2670	h2o	50.0
+single-cell-motility-assay/WellJ01_ChannelJOBS 10X red lida_Seq0072.nd2	raw brightfield time-lapse microscopy data	WellJ01	CC-2670	tor	50.0
+single-cell-motility-assay/WellJ02_ChannelJOBS 10X red lida_Seq0073.nd2	raw brightfield time-lapse microscopy data	WellJ02	CC-2670	tak	50.0
+single-cell-motility-assay/WellJ03_ChannelJOBS 10X red lida_Seq0074.nd2	raw brightfield time-lapse microscopy data	WellJ03	CC-2670	lin	50.0
+single-cell-motility-assay/WellJ04_ChannelJOBS 10X red lida_Seq0075.nd2	raw brightfield time-lapse microscopy data	WellJ04	CC-2670	ibu	50.0
+single-cell-motility-assay/WellJ05_ChannelJOBS 10X red lida_Seq0076.nd2	raw brightfield time-lapse microscopy data	WellJ05	CC-2670	dyn	50.0
+single-cell-motility-assay/WellJ06_ChannelJOBS 10X red lida_Seq0077.nd2	raw brightfield time-lapse microscopy data	WellJ06	CC-2670	atp	50.0
+single-cell-motility-assay/WellJ07_ChannelJOBS 10X red lida_Seq0078.nd2	raw brightfield time-lapse microscopy data	WellJ07	CC-2670	dmso	50.0
+single-cell-motility-assay/WellJ08_ChannelJOBS 10X red lida_Seq0079.nd2	raw brightfield time-lapse microscopy data	WellJ08	CC-2670	h2o	50.0
+single-cell-motility-assay/WellK01_ChannelJOBS 10X red lida_Seq0080.nd2	raw brightfield time-lapse microscopy data	WellK01	CC-3707	tor	50.0
+single-cell-motility-assay/WellK02_ChannelJOBS 10X red lida_Seq0081.nd2	raw brightfield time-lapse microscopy data	WellK02	CC-3707	tak	50.0
+single-cell-motility-assay/WellK03_ChannelJOBS 10X red lida_Seq0082.nd2	raw brightfield time-lapse microscopy data	WellK03	CC-3707	lin	50.0
+single-cell-motility-assay/WellK04_ChannelJOBS 10X red lida_Seq0083.nd2	raw brightfield time-lapse microscopy data	WellK04	CC-3707	ibu	50.0
+single-cell-motility-assay/WellK05_ChannelJOBS 10X red lida_Seq0084.nd2	raw brightfield time-lapse microscopy data	WellK05	CC-3707	dyn	50.0
+single-cell-motility-assay/WellK06_ChannelJOBS 10X red lida_Seq0085.nd2	raw brightfield time-lapse microscopy data	WellK06	CC-3707	atp	50.0
+single-cell-motility-assay/WellK07_ChannelJOBS 10X red lida_Seq0086.nd2	raw brightfield time-lapse microscopy data	WellK07	CC-3707	dmso	50.0
+single-cell-motility-assay/WellK08_ChannelJOBS 10X red lida_Seq0087.nd2	raw brightfield time-lapse microscopy data	WellK08	CC-3707	h2o	50.0
+single-cell-motility-assay/WellL01_ChannelJOBS 10X red lida_Seq0088.nd2	raw brightfield time-lapse microscopy data	WellL01	CC-3707	tor	50.0
+single-cell-motility-assay/WellL02_ChannelJOBS 10X red lida_Seq0089.nd2	raw brightfield time-lapse microscopy data	WellL02	CC-3707	tak	50.0
+single-cell-motility-assay/WellL03_ChannelJOBS 10X red lida_Seq0090.nd2	raw brightfield time-lapse microscopy data	WellL03	CC-3707	lin	50.0
+single-cell-motility-assay/WellL04_ChannelJOBS 10X red lida_Seq0091.nd2	raw brightfield time-lapse microscopy data	WellL04	CC-3707	ibu	50.0
+single-cell-motility-assay/WellL05_ChannelJOBS 10X red lida_Seq0092.nd2	raw brightfield time-lapse microscopy data	WellL05	CC-3707	dyn	50.0
+single-cell-motility-assay/WellL06_ChannelJOBS 10X red lida_Seq0093.nd2	raw brightfield time-lapse microscopy data	WellL06	CC-3707	atp	50.0
+single-cell-motility-assay/WellL07_ChannelJOBS 10X red lida_Seq0094.nd2	raw brightfield time-lapse microscopy data	WellL07	CC-3707	dmso	50.0
+single-cell-motility-assay/WellL08_ChannelJOBS 10X red lida_Seq0095.nd2	raw brightfield time-lapse microscopy data	WellL08	CC-3707	h2o	50.0
+single-cell-motility-assay/processed/WellA01_ChannelJOBS 10X red lida_Seq0000_animation.mp4	movie of tracked cells with animated trajectories	WellA01	CC-125	tor	12.5
+single-cell-motility-assay/processed/WellA01_ChannelJOBS 10X red lida_Seq0000_segmented.tiff	segmented time lapse	WellA01	CC-125	tor	12.5
+single-cell-motility-assay/processed/WellA01_ChannelJOBS 10X red lida_Seq0000_tracks.csv	coordinates from cell tracking	WellA01	CC-125	tor	12.5
+single-cell-motility-assay/processed/WellA02_ChannelJOBS 10X red lida_Seq0001_animation.mp4	movie of tracked cells with animated trajectories	WellA02	CC-125	tak	12.5
+single-cell-motility-assay/processed/WellA02_ChannelJOBS 10X red lida_Seq0001_segmented.tiff	segmented time lapse	WellA02	CC-125	tak	12.5
+single-cell-motility-assay/processed/WellA02_ChannelJOBS 10X red lida_Seq0001_tracks.csv	coordinates from cell tracking	WellA02	CC-125	tak	12.5
+single-cell-motility-assay/processed/WellA03_ChannelJOBS 10X red lida_Seq0002_animation.mp4	movie of tracked cells with animated trajectories	WellA03	CC-125	lin	12.5
+single-cell-motility-assay/processed/WellA03_ChannelJOBS 10X red lida_Seq0002_segmented.tiff	segmented time lapse	WellA03	CC-125	lin	12.5
+single-cell-motility-assay/processed/WellA03_ChannelJOBS 10X red lida_Seq0002_tracks.csv	coordinates from cell tracking	WellA03	CC-125	lin	12.5
+single-cell-motility-assay/processed/WellA04_ChannelJOBS 10X red lida_Seq0003_animation.mp4	movie of tracked cells with animated trajectories	WellA04	CC-125	ibu	12.5
+single-cell-motility-assay/processed/WellA04_ChannelJOBS 10X red lida_Seq0003_segmented.tiff	segmented time lapse	WellA04	CC-125	ibu	12.5
+single-cell-motility-assay/processed/WellA04_ChannelJOBS 10X red lida_Seq0003_tracks.csv	coordinates from cell tracking	WellA04	CC-125	ibu	12.5
+single-cell-motility-assay/processed/WellA05_ChannelJOBS 10X red lida_Seq0004_animation.mp4	movie of tracked cells with animated trajectories	WellA05	CC-125	dyn	12.5
+single-cell-motility-assay/processed/WellA05_ChannelJOBS 10X red lida_Seq0004_segmented.tiff	segmented time lapse	WellA05	CC-125	dyn	12.5
+single-cell-motility-assay/processed/WellA05_ChannelJOBS 10X red lida_Seq0004_tracks.csv	coordinates from cell tracking	WellA05	CC-125	dyn	12.5
+single-cell-motility-assay/processed/WellA06_ChannelJOBS 10X red lida_Seq0005_animation.mp4	movie of tracked cells with animated trajectories	WellA06	CC-125	atp	12.5
+single-cell-motility-assay/processed/WellA06_ChannelJOBS 10X red lida_Seq0005_segmented.tiff	segmented time lapse	WellA06	CC-125	atp	12.5
+single-cell-motility-assay/processed/WellA06_ChannelJOBS 10X red lida_Seq0005_tracks.csv	coordinates from cell tracking	WellA06	CC-125	atp	12.5
+single-cell-motility-assay/processed/WellA07_ChannelJOBS 10X red lida_Seq0006_animation.mp4	movie of tracked cells with animated trajectories	WellA07	CC-125	dmso	12.5
+single-cell-motility-assay/processed/WellA07_ChannelJOBS 10X red lida_Seq0006_segmented.tiff	segmented time lapse	WellA07	CC-125	dmso	12.5
+single-cell-motility-assay/processed/WellA07_ChannelJOBS 10X red lida_Seq0006_tracks.csv	coordinates from cell tracking	WellA07	CC-125	dmso	12.5
+single-cell-motility-assay/processed/WellA08_ChannelJOBS 10X red lida_Seq0007_animation.mp4	movie of tracked cells with animated trajectories	WellA08	CC-125	h2o	12.5
+single-cell-motility-assay/processed/WellA08_ChannelJOBS 10X red lida_Seq0007_segmented.tiff	segmented time lapse	WellA08	CC-125	h2o	12.5
+single-cell-motility-assay/processed/WellA08_ChannelJOBS 10X red lida_Seq0007_tracks.csv	coordinates from cell tracking	WellA08	CC-125	h2o	12.5
+single-cell-motility-assay/processed/WellB01_ChannelJOBS 10X red lida_Seq0008_animation.mp4	movie of tracked cells with animated trajectories	WellB01	CC-125	tor	12.5
+single-cell-motility-assay/processed/WellB01_ChannelJOBS 10X red lida_Seq0008_segmented.tiff	segmented time lapse	WellB01	CC-125	tor	12.5
+single-cell-motility-assay/processed/WellB01_ChannelJOBS 10X red lida_Seq0008_tracks.csv	coordinates from cell tracking	WellB01	CC-125	tor	12.5
+single-cell-motility-assay/processed/WellB02_ChannelJOBS 10X red lida_Seq0009_animation.mp4	movie of tracked cells with animated trajectories	WellB02	CC-125	tak	12.5
+single-cell-motility-assay/processed/WellB02_ChannelJOBS 10X red lida_Seq0009_segmented.tiff	segmented time lapse	WellB02	CC-125	tak	12.5
+single-cell-motility-assay/processed/WellB02_ChannelJOBS 10X red lida_Seq0009_tracks.csv	coordinates from cell tracking	WellB02	CC-125	tak	12.5
+single-cell-motility-assay/processed/WellB03_ChannelJOBS 10X red lida_Seq0010_animation.mp4	movie of tracked cells with animated trajectories	WellB03	CC-125	lin	12.5
+single-cell-motility-assay/processed/WellB03_ChannelJOBS 10X red lida_Seq0010_segmented.tiff	segmented time lapse	WellB03	CC-125	lin	12.5
+single-cell-motility-assay/processed/WellB03_ChannelJOBS 10X red lida_Seq0010_tracks.csv	coordinates from cell tracking	WellB03	CC-125	lin	12.5
+single-cell-motility-assay/processed/WellB04_ChannelJOBS 10X red lida_Seq0011_animation.mp4	movie of tracked cells with animated trajectories	WellB04	CC-125	ibu	12.5
+single-cell-motility-assay/processed/WellB04_ChannelJOBS 10X red lida_Seq0011_segmented.tiff	segmented time lapse	WellB04	CC-125	ibu	12.5
+single-cell-motility-assay/processed/WellB04_ChannelJOBS 10X red lida_Seq0011_tracks.csv	coordinates from cell tracking	WellB04	CC-125	ibu	12.5
+single-cell-motility-assay/processed/WellB05_ChannelJOBS 10X red lida_Seq0012_animation.mp4	movie of tracked cells with animated trajectories	WellB05	CC-125	dyn	12.5
+single-cell-motility-assay/processed/WellB05_ChannelJOBS 10X red lida_Seq0012_segmented.tiff	segmented time lapse	WellB05	CC-125	dyn	12.5
+single-cell-motility-assay/processed/WellB05_ChannelJOBS 10X red lida_Seq0012_tracks.csv	coordinates from cell tracking	WellB05	CC-125	dyn	12.5
+single-cell-motility-assay/processed/WellB06_ChannelJOBS 10X red lida_Seq0013_animation.mp4	movie of tracked cells with animated trajectories	WellB06	CC-125	atp	12.5
+single-cell-motility-assay/processed/WellB06_ChannelJOBS 10X red lida_Seq0013_segmented.tiff	segmented time lapse	WellB06	CC-125	atp	12.5
+single-cell-motility-assay/processed/WellB06_ChannelJOBS 10X red lida_Seq0013_tracks.csv	coordinates from cell tracking	WellB06	CC-125	atp	12.5
+single-cell-motility-assay/processed/WellB07_ChannelJOBS 10X red lida_Seq0014_animation.mp4	movie of tracked cells with animated trajectories	WellB07	CC-125	dmso	12.5
+single-cell-motility-assay/processed/WellB07_ChannelJOBS 10X red lida_Seq0014_segmented.tiff	segmented time lapse	WellB07	CC-125	dmso	12.5
+single-cell-motility-assay/processed/WellB07_ChannelJOBS 10X red lida_Seq0014_tracks.csv	coordinates from cell tracking	WellB07	CC-125	dmso	12.5
+single-cell-motility-assay/processed/WellB08_ChannelJOBS 10X red lida_Seq0015_animation.mp4	movie of tracked cells with animated trajectories	WellB08	CC-125	h2o	12.5
+single-cell-motility-assay/processed/WellB08_ChannelJOBS 10X red lida_Seq0015_segmented.tiff	segmented time lapse	WellB08	CC-125	h2o	12.5
+single-cell-motility-assay/processed/WellB08_ChannelJOBS 10X red lida_Seq0015_tracks.csv	coordinates from cell tracking	WellB08	CC-125	h2o	12.5
+single-cell-motility-assay/processed/WellC01_ChannelJOBS 10X red lida_Seq0016_animation.mp4	movie of tracked cells with animated trajectories	WellC01	CC-2670	tor	12.5
+single-cell-motility-assay/processed/WellC01_ChannelJOBS 10X red lida_Seq0016_segmented.tiff	segmented time lapse	WellC01	CC-2670	tor	12.5
+single-cell-motility-assay/processed/WellC01_ChannelJOBS 10X red lida_Seq0016_tracks.csv	coordinates from cell tracking	WellC01	CC-2670	tor	12.5
+single-cell-motility-assay/processed/WellC02_ChannelJOBS 10X red lida_Seq0017_animation.mp4	movie of tracked cells with animated trajectories	WellC02	CC-2670	tak	12.5
+single-cell-motility-assay/processed/WellC02_ChannelJOBS 10X red lida_Seq0017_segmented.tiff	segmented time lapse	WellC02	CC-2670	tak	12.5
+single-cell-motility-assay/processed/WellC02_ChannelJOBS 10X red lida_Seq0017_tracks.csv	coordinates from cell tracking	WellC02	CC-2670	tak	12.5
+single-cell-motility-assay/processed/WellC03_ChannelJOBS 10X red lida_Seq0018_animation.mp4	movie of tracked cells with animated trajectories	WellC03	CC-2670	lin	12.5
+single-cell-motility-assay/processed/WellC03_ChannelJOBS 10X red lida_Seq0018_segmented.tiff	segmented time lapse	WellC03	CC-2670	lin	12.5
+single-cell-motility-assay/processed/WellC03_ChannelJOBS 10X red lida_Seq0018_tracks.csv	coordinates from cell tracking	WellC03	CC-2670	lin	12.5
+single-cell-motility-assay/processed/WellC04_ChannelJOBS 10X red lida_Seq0019_animation.mp4	movie of tracked cells with animated trajectories	WellC04	CC-2670	ibu	12.5
+single-cell-motility-assay/processed/WellC04_ChannelJOBS 10X red lida_Seq0019_segmented.tiff	segmented time lapse	WellC04	CC-2670	ibu	12.5
+single-cell-motility-assay/processed/WellC04_ChannelJOBS 10X red lida_Seq0019_tracks.csv	coordinates from cell tracking	WellC04	CC-2670	ibu	12.5
+single-cell-motility-assay/processed/WellC05_ChannelJOBS 10X red lida_Seq0020_animation.mp4	movie of tracked cells with animated trajectories	WellC05	CC-2670	dyn	12.5
+single-cell-motility-assay/processed/WellC05_ChannelJOBS 10X red lida_Seq0020_segmented.tiff	segmented time lapse	WellC05	CC-2670	dyn	12.5
+single-cell-motility-assay/processed/WellC05_ChannelJOBS 10X red lida_Seq0020_tracks.csv	coordinates from cell tracking	WellC05	CC-2670	dyn	12.5
+single-cell-motility-assay/processed/WellC06_ChannelJOBS 10X red lida_Seq0021_animation.mp4	movie of tracked cells with animated trajectories	WellC06	CC-2670	atp	12.5
+single-cell-motility-assay/processed/WellC06_ChannelJOBS 10X red lida_Seq0021_segmented.tiff	segmented time lapse	WellC06	CC-2670	atp	12.5
+single-cell-motility-assay/processed/WellC06_ChannelJOBS 10X red lida_Seq0021_tracks.csv	coordinates from cell tracking	WellC06	CC-2670	atp	12.5
+single-cell-motility-assay/processed/WellC07_ChannelJOBS 10X red lida_Seq0022_animation.mp4	movie of tracked cells with animated trajectories	WellC07	CC-2670	dmso	12.5
+single-cell-motility-assay/processed/WellC07_ChannelJOBS 10X red lida_Seq0022_segmented.tiff	segmented time lapse	WellC07	CC-2670	dmso	12.5
+single-cell-motility-assay/processed/WellC07_ChannelJOBS 10X red lida_Seq0022_tracks.csv	coordinates from cell tracking	WellC07	CC-2670	dmso	12.5
+single-cell-motility-assay/processed/WellC08_ChannelJOBS 10X red lida_Seq0023_animation.mp4	movie of tracked cells with animated trajectories	WellC08	CC-2670	h2o	12.5
+single-cell-motility-assay/processed/WellC08_ChannelJOBS 10X red lida_Seq0023_segmented.tiff	segmented time lapse	WellC08	CC-2670	h2o	12.5
+single-cell-motility-assay/processed/WellC08_ChannelJOBS 10X red lida_Seq0023_tracks.csv	coordinates from cell tracking	WellC08	CC-2670	h2o	12.5
+single-cell-motility-assay/processed/WellD01_ChannelJOBS 10X red lida_Seq0024_animation.mp4	movie of tracked cells with animated trajectories	WellD01	CC-2670	tor	12.5
+single-cell-motility-assay/processed/WellD01_ChannelJOBS 10X red lida_Seq0024_segmented.tiff	segmented time lapse	WellD01	CC-2670	tor	12.5
+single-cell-motility-assay/processed/WellD01_ChannelJOBS 10X red lida_Seq0024_tracks.csv	coordinates from cell tracking	WellD01	CC-2670	tor	12.5
+single-cell-motility-assay/processed/WellD02_ChannelJOBS 10X red lida_Seq0025_animation.mp4	movie of tracked cells with animated trajectories	WellD02	CC-2670	tak	12.5
+single-cell-motility-assay/processed/WellD02_ChannelJOBS 10X red lida_Seq0025_segmented.tiff	segmented time lapse	WellD02	CC-2670	tak	12.5
+single-cell-motility-assay/processed/WellD02_ChannelJOBS 10X red lida_Seq0025_tracks.csv	coordinates from cell tracking	WellD02	CC-2670	tak	12.5
+single-cell-motility-assay/processed/WellD03_ChannelJOBS 10X red lida_Seq0026_animation.mp4	movie of tracked cells with animated trajectories	WellD03	CC-2670	lin	12.5
+single-cell-motility-assay/processed/WellD03_ChannelJOBS 10X red lida_Seq0026_segmented.tiff	segmented time lapse	WellD03	CC-2670	lin	12.5
+single-cell-motility-assay/processed/WellD03_ChannelJOBS 10X red lida_Seq0026_tracks.csv	coordinates from cell tracking	WellD03	CC-2670	lin	12.5
+single-cell-motility-assay/processed/WellD04_ChannelJOBS 10X red lida_Seq0027_animation.mp4	movie of tracked cells with animated trajectories	WellD04	CC-2670	ibu	12.5
+single-cell-motility-assay/processed/WellD04_ChannelJOBS 10X red lida_Seq0027_segmented.tiff	segmented time lapse	WellD04	CC-2670	ibu	12.5
+single-cell-motility-assay/processed/WellD04_ChannelJOBS 10X red lida_Seq0027_tracks.csv	coordinates from cell tracking	WellD04	CC-2670	ibu	12.5
+single-cell-motility-assay/processed/WellD05_ChannelJOBS 10X red lida_Seq0028_animation.mp4	movie of tracked cells with animated trajectories	WellD05	CC-2670	dyn	12.5
+single-cell-motility-assay/processed/WellD05_ChannelJOBS 10X red lida_Seq0028_segmented.tiff	segmented time lapse	WellD05	CC-2670	dyn	12.5
+single-cell-motility-assay/processed/WellD05_ChannelJOBS 10X red lida_Seq0028_tracks.csv	coordinates from cell tracking	WellD05	CC-2670	dyn	12.5
+single-cell-motility-assay/processed/WellD06_ChannelJOBS 10X red lida_Seq0029_animation.mp4	movie of tracked cells with animated trajectories	WellD06	CC-2670	atp	12.5
+single-cell-motility-assay/processed/WellD06_ChannelJOBS 10X red lida_Seq0029_segmented.tiff	segmented time lapse	WellD06	CC-2670	atp	12.5
+single-cell-motility-assay/processed/WellD06_ChannelJOBS 10X red lida_Seq0029_tracks.csv	coordinates from cell tracking	WellD06	CC-2670	atp	12.5
+single-cell-motility-assay/processed/WellD07_ChannelJOBS 10X red lida_Seq0030_animation.mp4	movie of tracked cells with animated trajectories	WellD07	CC-2670	dmso	12.5
+single-cell-motility-assay/processed/WellD07_ChannelJOBS 10X red lida_Seq0030_segmented.tiff	segmented time lapse	WellD07	CC-2670	dmso	12.5
+single-cell-motility-assay/processed/WellD07_ChannelJOBS 10X red lida_Seq0030_tracks.csv	coordinates from cell tracking	WellD07	CC-2670	dmso	12.5
+single-cell-motility-assay/processed/WellD08_ChannelJOBS 10X red lida_Seq0031_animation.mp4	movie of tracked cells with animated trajectories	WellD08	CC-2670	h2o	12.5
+single-cell-motility-assay/processed/WellD08_ChannelJOBS 10X red lida_Seq0031_segmented.tiff	segmented time lapse	WellD08	CC-2670	h2o	12.5
+single-cell-motility-assay/processed/WellD08_ChannelJOBS 10X red lida_Seq0031_tracks.csv	coordinates from cell tracking	WellD08	CC-2670	h2o	12.5
+single-cell-motility-assay/processed/WellE01_ChannelJOBS 10X red lida_Seq0032_animation.mp4	movie of tracked cells with animated trajectories	WellE01	CC-3707	tor	12.5
+single-cell-motility-assay/processed/WellE01_ChannelJOBS 10X red lida_Seq0032_segmented.tiff	segmented time lapse	WellE01	CC-3707	tor	12.5
+single-cell-motility-assay/processed/WellE01_ChannelJOBS 10X red lida_Seq0032_tracks.csv	coordinates from cell tracking	WellE01	CC-3707	tor	12.5
+single-cell-motility-assay/processed/WellE02_ChannelJOBS 10X red lida_Seq0033_animation.mp4	movie of tracked cells with animated trajectories	WellE02	CC-3707	tak	12.5
+single-cell-motility-assay/processed/WellE02_ChannelJOBS 10X red lida_Seq0033_segmented.tiff	segmented time lapse	WellE02	CC-3707	tak	12.5
+single-cell-motility-assay/processed/WellE02_ChannelJOBS 10X red lida_Seq0033_tracks.csv	coordinates from cell tracking	WellE02	CC-3707	tak	12.5
+single-cell-motility-assay/processed/WellE03_ChannelJOBS 10X red lida_Seq0034_animation.mp4	movie of tracked cells with animated trajectories	WellE03	CC-3707	lin	12.5
+single-cell-motility-assay/processed/WellE03_ChannelJOBS 10X red lida_Seq0034_segmented.tiff	segmented time lapse	WellE03	CC-3707	lin	12.5
+single-cell-motility-assay/processed/WellE03_ChannelJOBS 10X red lida_Seq0034_tracks.csv	coordinates from cell tracking	WellE03	CC-3707	lin	12.5
+single-cell-motility-assay/processed/WellE04_ChannelJOBS 10X red lida_Seq0035_animation.mp4	movie of tracked cells with animated trajectories	WellE04	CC-3707	ibu	12.5
+single-cell-motility-assay/processed/WellE04_ChannelJOBS 10X red lida_Seq0035_segmented.tiff	segmented time lapse	WellE04	CC-3707	ibu	12.5
+single-cell-motility-assay/processed/WellE04_ChannelJOBS 10X red lida_Seq0035_tracks.csv	coordinates from cell tracking	WellE04	CC-3707	ibu	12.5
+single-cell-motility-assay/processed/WellE05_ChannelJOBS 10X red lida_Seq0036_animation.mp4	movie of tracked cells with animated trajectories	WellE05	CC-3707	dyn	12.5
+single-cell-motility-assay/processed/WellE05_ChannelJOBS 10X red lida_Seq0036_segmented.tiff	segmented time lapse	WellE05	CC-3707	dyn	12.5
+single-cell-motility-assay/processed/WellE05_ChannelJOBS 10X red lida_Seq0036_tracks.csv	coordinates from cell tracking	WellE05	CC-3707	dyn	12.5
+single-cell-motility-assay/processed/WellE06_ChannelJOBS 10X red lida_Seq0037_animation.mp4	movie of tracked cells with animated trajectories	WellE06	CC-3707	atp	12.5
+single-cell-motility-assay/processed/WellE06_ChannelJOBS 10X red lida_Seq0037_segmented.tiff	segmented time lapse	WellE06	CC-3707	atp	12.5
+single-cell-motility-assay/processed/WellE06_ChannelJOBS 10X red lida_Seq0037_tracks.csv	coordinates from cell tracking	WellE06	CC-3707	atp	12.5
+single-cell-motility-assay/processed/WellE07_ChannelJOBS 10X red lida_Seq0038_animation.mp4	movie of tracked cells with animated trajectories	WellE07	CC-3707	dmso	12.5
+single-cell-motility-assay/processed/WellE07_ChannelJOBS 10X red lida_Seq0038_segmented.tiff	segmented time lapse	WellE07	CC-3707	dmso	12.5
+single-cell-motility-assay/processed/WellE07_ChannelJOBS 10X red lida_Seq0038_tracks.csv	coordinates from cell tracking	WellE07	CC-3707	dmso	12.5
+single-cell-motility-assay/processed/WellE08_ChannelJOBS 10X red lida_Seq0039_animation.mp4	movie of tracked cells with animated trajectories	WellE08	CC-3707	h2o	12.5
+single-cell-motility-assay/processed/WellE08_ChannelJOBS 10X red lida_Seq0039_segmented.tiff	segmented time lapse	WellE08	CC-3707	h2o	12.5
+single-cell-motility-assay/processed/WellE08_ChannelJOBS 10X red lida_Seq0039_tracks.csv	coordinates from cell tracking	WellE08	CC-3707	h2o	12.5
+single-cell-motility-assay/processed/WellF01_ChannelJOBS 10X red lida_Seq0040_animation.mp4	movie of tracked cells with animated trajectories	WellF01	CC-3707	tor	12.5
+single-cell-motility-assay/processed/WellF01_ChannelJOBS 10X red lida_Seq0040_segmented.tiff	segmented time lapse	WellF01	CC-3707	tor	12.5
+single-cell-motility-assay/processed/WellF01_ChannelJOBS 10X red lida_Seq0040_tracks.csv	coordinates from cell tracking	WellF01	CC-3707	tor	12.5
+single-cell-motility-assay/processed/WellF02_ChannelJOBS 10X red lida_Seq0041_animation.mp4	movie of tracked cells with animated trajectories	WellF02	CC-3707	tak	12.5
+single-cell-motility-assay/processed/WellF02_ChannelJOBS 10X red lida_Seq0041_segmented.tiff	segmented time lapse	WellF02	CC-3707	tak	12.5
+single-cell-motility-assay/processed/WellF02_ChannelJOBS 10X red lida_Seq0041_tracks.csv	coordinates from cell tracking	WellF02	CC-3707	tak	12.5
+single-cell-motility-assay/processed/WellF03_ChannelJOBS 10X red lida_Seq0042_animation.mp4	movie of tracked cells with animated trajectories	WellF03	CC-3707	lin	12.5
+single-cell-motility-assay/processed/WellF03_ChannelJOBS 10X red lida_Seq0042_segmented.tiff	segmented time lapse	WellF03	CC-3707	lin	12.5
+single-cell-motility-assay/processed/WellF03_ChannelJOBS 10X red lida_Seq0042_tracks.csv	coordinates from cell tracking	WellF03	CC-3707	lin	12.5
+single-cell-motility-assay/processed/WellF04_ChannelJOBS 10X red lida_Seq0043_animation.mp4	movie of tracked cells with animated trajectories	WellF04	CC-3707	ibu	12.5
+single-cell-motility-assay/processed/WellF04_ChannelJOBS 10X red lida_Seq0043_segmented.tiff	segmented time lapse	WellF04	CC-3707	ibu	12.5
+single-cell-motility-assay/processed/WellF04_ChannelJOBS 10X red lida_Seq0043_tracks.csv	coordinates from cell tracking	WellF04	CC-3707	ibu	12.5
+single-cell-motility-assay/processed/WellF05_ChannelJOBS 10X red lida_Seq0044_animation.mp4	movie of tracked cells with animated trajectories	WellF05	CC-3707	dyn	12.5
+single-cell-motility-assay/processed/WellF05_ChannelJOBS 10X red lida_Seq0044_segmented.tiff	segmented time lapse	WellF05	CC-3707	dyn	12.5
+single-cell-motility-assay/processed/WellF05_ChannelJOBS 10X red lida_Seq0044_tracks.csv	coordinates from cell tracking	WellF05	CC-3707	dyn	12.5
+single-cell-motility-assay/processed/WellF06_ChannelJOBS 10X red lida_Seq0045_animation.mp4	movie of tracked cells with animated trajectories	WellF06	CC-3707	atp	12.5
+single-cell-motility-assay/processed/WellF06_ChannelJOBS 10X red lida_Seq0045_segmented.tiff	segmented time lapse	WellF06	CC-3707	atp	12.5
+single-cell-motility-assay/processed/WellF06_ChannelJOBS 10X red lida_Seq0045_tracks.csv	coordinates from cell tracking	WellF06	CC-3707	atp	12.5
+single-cell-motility-assay/processed/WellF07_ChannelJOBS 10X red lida_Seq0046_animation.mp4	movie of tracked cells with animated trajectories	WellF07	CC-3707	dmso	12.5
+single-cell-motility-assay/processed/WellF07_ChannelJOBS 10X red lida_Seq0046_segmented.tiff	segmented time lapse	WellF07	CC-3707	dmso	12.5
+single-cell-motility-assay/processed/WellF07_ChannelJOBS 10X red lida_Seq0046_tracks.csv	coordinates from cell tracking	WellF07	CC-3707	dmso	12.5
+single-cell-motility-assay/processed/WellF08_ChannelJOBS 10X red lida_Seq0047_animation.mp4	movie of tracked cells with animated trajectories	WellF08	CC-3707	h2o	12.5
+single-cell-motility-assay/processed/WellF08_ChannelJOBS 10X red lida_Seq0047_segmented.tiff	segmented time lapse	WellF08	CC-3707	h2o	12.5
+single-cell-motility-assay/processed/WellF08_ChannelJOBS 10X red lida_Seq0047_tracks.csv	coordinates from cell tracking	WellF08	CC-3707	h2o	12.5
+single-cell-motility-assay/processed/WellG01_ChannelJOBS 10X red lida_Seq0048_animation.mp4	movie of tracked cells with animated trajectories	WellG01	CC-125	tor	50.0
+single-cell-motility-assay/processed/WellG01_ChannelJOBS 10X red lida_Seq0048_segmented.tiff	segmented time lapse	WellG01	CC-125	tor	50.0
+single-cell-motility-assay/processed/WellG01_ChannelJOBS 10X red lida_Seq0048_tracks.csv	coordinates from cell tracking	WellG01	CC-125	tor	50.0
+single-cell-motility-assay/processed/WellG02_ChannelJOBS 10X red lida_Seq0049_animation.mp4	movie of tracked cells with animated trajectories	WellG02	CC-125	tak	50.0
+single-cell-motility-assay/processed/WellG02_ChannelJOBS 10X red lida_Seq0049_segmented.tiff	segmented time lapse	WellG02	CC-125	tak	50.0
+single-cell-motility-assay/processed/WellG02_ChannelJOBS 10X red lida_Seq0049_tracks.csv	coordinates from cell tracking	WellG02	CC-125	tak	50.0
+single-cell-motility-assay/processed/WellG03_ChannelJOBS 10X red lida_Seq0050_animation.mp4	movie of tracked cells with animated trajectories	WellG03	CC-125	lin	50.0
+single-cell-motility-assay/processed/WellG03_ChannelJOBS 10X red lida_Seq0050_segmented.tiff	segmented time lapse	WellG03	CC-125	lin	50.0
+single-cell-motility-assay/processed/WellG03_ChannelJOBS 10X red lida_Seq0050_tracks.csv	coordinates from cell tracking	WellG03	CC-125	lin	50.0
+single-cell-motility-assay/processed/WellG04_ChannelJOBS 10X red lida_Seq0051_animation.mp4	movie of tracked cells with animated trajectories	WellG04	CC-125	ibu	50.0
+single-cell-motility-assay/processed/WellG04_ChannelJOBS 10X red lida_Seq0051_segmented.tiff	segmented time lapse	WellG04	CC-125	ibu	50.0
+single-cell-motility-assay/processed/WellG04_ChannelJOBS 10X red lida_Seq0051_tracks.csv	coordinates from cell tracking	WellG04	CC-125	ibu	50.0
+single-cell-motility-assay/processed/WellG05_ChannelJOBS 10X red lida_Seq0052_animation.mp4	movie of tracked cells with animated trajectories	WellG05	CC-125	dyn	50.0
+single-cell-motility-assay/processed/WellG05_ChannelJOBS 10X red lida_Seq0052_segmented.tiff	segmented time lapse	WellG05	CC-125	dyn	50.0
+single-cell-motility-assay/processed/WellG05_ChannelJOBS 10X red lida_Seq0052_tracks.csv	coordinates from cell tracking	WellG05	CC-125	dyn	50.0
+single-cell-motility-assay/processed/WellG06_ChannelJOBS 10X red lida_Seq0053_animation.mp4	movie of tracked cells with animated trajectories	WellG06	CC-125	atp	50.0
+single-cell-motility-assay/processed/WellG06_ChannelJOBS 10X red lida_Seq0053_segmented.tiff	segmented time lapse	WellG06	CC-125	atp	50.0
+single-cell-motility-assay/processed/WellG06_ChannelJOBS 10X red lida_Seq0053_tracks.csv	coordinates from cell tracking	WellG06	CC-125	atp	50.0
+single-cell-motility-assay/processed/WellG07_ChannelJOBS 10X red lida_Seq0054_animation.mp4	movie of tracked cells with animated trajectories	WellG07	CC-125	dmso	50.0
+single-cell-motility-assay/processed/WellG07_ChannelJOBS 10X red lida_Seq0054_segmented.tiff	segmented time lapse	WellG07	CC-125	dmso	50.0
+single-cell-motility-assay/processed/WellG07_ChannelJOBS 10X red lida_Seq0054_tracks.csv	coordinates from cell tracking	WellG07	CC-125	dmso	50.0
+single-cell-motility-assay/processed/WellG08_ChannelJOBS 10X red lida_Seq0055_animation.mp4	movie of tracked cells with animated trajectories	WellG08	CC-125	h2o	50.0
+single-cell-motility-assay/processed/WellG08_ChannelJOBS 10X red lida_Seq0055_segmented.tiff	segmented time lapse	WellG08	CC-125	h2o	50.0
+single-cell-motility-assay/processed/WellG08_ChannelJOBS 10X red lida_Seq0055_tracks.csv	coordinates from cell tracking	WellG08	CC-125	h2o	50.0
+single-cell-motility-assay/processed/WellH01_ChannelJOBS 10X red lida_Seq0056_animation.mp4	movie of tracked cells with animated trajectories	WellH01	CC-125	tor	50.0
+single-cell-motility-assay/processed/WellH01_ChannelJOBS 10X red lida_Seq0056_segmented.tiff	segmented time lapse	WellH01	CC-125	tor	50.0
+single-cell-motility-assay/processed/WellH01_ChannelJOBS 10X red lida_Seq0056_tracks.csv	coordinates from cell tracking	WellH01	CC-125	tor	50.0
+single-cell-motility-assay/processed/WellH02_ChannelJOBS 10X red lida_Seq0057_animation.mp4	movie of tracked cells with animated trajectories	WellH02	CC-125	tak	50.0
+single-cell-motility-assay/processed/WellH02_ChannelJOBS 10X red lida_Seq0057_segmented.tiff	segmented time lapse	WellH02	CC-125	tak	50.0
+single-cell-motility-assay/processed/WellH02_ChannelJOBS 10X red lida_Seq0057_tracks.csv	coordinates from cell tracking	WellH02	CC-125	tak	50.0
+single-cell-motility-assay/processed/WellH03_ChannelJOBS 10X red lida_Seq0058_animation.mp4	movie of tracked cells with animated trajectories	WellH03	CC-125	lin	50.0
+single-cell-motility-assay/processed/WellH03_ChannelJOBS 10X red lida_Seq0058_segmented.tiff	segmented time lapse	WellH03	CC-125	lin	50.0
+single-cell-motility-assay/processed/WellH03_ChannelJOBS 10X red lida_Seq0058_tracks.csv	coordinates from cell tracking	WellH03	CC-125	lin	50.0
+single-cell-motility-assay/processed/WellH05_ChannelJOBS 10X red lida_Seq0060_animation.mp4	movie of tracked cells with animated trajectories	WellH05	CC-125	dyn	50.0
+single-cell-motility-assay/processed/WellH05_ChannelJOBS 10X red lida_Seq0060_segmented.tiff	segmented time lapse	WellH05	CC-125	dyn	50.0
+single-cell-motility-assay/processed/WellH05_ChannelJOBS 10X red lida_Seq0060_tracks.csv	coordinates from cell tracking	WellH05	CC-125	dyn	50.0
+single-cell-motility-assay/processed/WellH06_ChannelJOBS 10X red lida_Seq0061_animation.mp4	movie of tracked cells with animated trajectories	WellH06	CC-125	atp	50.0
+single-cell-motility-assay/processed/WellH06_ChannelJOBS 10X red lida_Seq0061_segmented.tiff	segmented time lapse	WellH06	CC-125	atp	50.0
+single-cell-motility-assay/processed/WellH06_ChannelJOBS 10X red lida_Seq0061_tracks.csv	coordinates from cell tracking	WellH06	CC-125	atp	50.0
+single-cell-motility-assay/processed/WellH07_ChannelJOBS 10X red lida_Seq0062_animation.mp4	movie of tracked cells with animated trajectories	WellH07	CC-125	dmso	50.0
+single-cell-motility-assay/processed/WellH07_ChannelJOBS 10X red lida_Seq0062_segmented.tiff	segmented time lapse	WellH07	CC-125	dmso	50.0
+single-cell-motility-assay/processed/WellH07_ChannelJOBS 10X red lida_Seq0062_tracks.csv	coordinates from cell tracking	WellH07	CC-125	dmso	50.0
+single-cell-motility-assay/processed/WellH08_ChannelJOBS 10X red lida_Seq0063_animation.mp4	movie of tracked cells with animated trajectories	WellH08	CC-125	h2o	50.0
+single-cell-motility-assay/processed/WellH08_ChannelJOBS 10X red lida_Seq0063_segmented.tiff	segmented time lapse	WellH08	CC-125	h2o	50.0
+single-cell-motility-assay/processed/WellH08_ChannelJOBS 10X red lida_Seq0063_tracks.csv	coordinates from cell tracking	WellH08	CC-125	h2o	50.0
+single-cell-motility-assay/processed/WellI01_ChannelJOBS 10X red lida_Seq0064_animation.mp4	movie of tracked cells with animated trajectories	WellI01	CC-2670	tor	50.0
+single-cell-motility-assay/processed/WellI01_ChannelJOBS 10X red lida_Seq0064_segmented.tiff	segmented time lapse	WellI01	CC-2670	tor	50.0
+single-cell-motility-assay/processed/WellI01_ChannelJOBS 10X red lida_Seq0064_tracks.csv	coordinates from cell tracking	WellI01	CC-2670	tor	50.0
+single-cell-motility-assay/processed/WellI02_ChannelJOBS 10X red lida_Seq0065_animation.mp4	movie of tracked cells with animated trajectories	WellI02	CC-2670	tak	50.0
+single-cell-motility-assay/processed/WellI02_ChannelJOBS 10X red lida_Seq0065_segmented.tiff	segmented time lapse	WellI02	CC-2670	tak	50.0
+single-cell-motility-assay/processed/WellI02_ChannelJOBS 10X red lida_Seq0065_tracks.csv	coordinates from cell tracking	WellI02	CC-2670	tak	50.0
+single-cell-motility-assay/processed/WellI03_ChannelJOBS 10X red lida_Seq0066_animation.mp4	movie of tracked cells with animated trajectories	WellI03	CC-2670	lin	50.0
+single-cell-motility-assay/processed/WellI03_ChannelJOBS 10X red lida_Seq0066_segmented.tiff	segmented time lapse	WellI03	CC-2670	lin	50.0
+single-cell-motility-assay/processed/WellI03_ChannelJOBS 10X red lida_Seq0066_tracks.csv	coordinates from cell tracking	WellI03	CC-2670	lin	50.0
+single-cell-motility-assay/processed/WellI04_ChannelJOBS 10X red lida_Seq0067_animation.mp4	movie of tracked cells with animated trajectories	WellI04	CC-2670	ibu	50.0
+single-cell-motility-assay/processed/WellI04_ChannelJOBS 10X red lida_Seq0067_segmented.tiff	segmented time lapse	WellI04	CC-2670	ibu	50.0
+single-cell-motility-assay/processed/WellI04_ChannelJOBS 10X red lida_Seq0067_tracks.csv	coordinates from cell tracking	WellI04	CC-2670	ibu	50.0
+single-cell-motility-assay/processed/WellI05_ChannelJOBS 10X red lida_Seq0068_animation.mp4	movie of tracked cells with animated trajectories	WellI05	CC-2670	dyn	50.0
+single-cell-motility-assay/processed/WellI05_ChannelJOBS 10X red lida_Seq0068_segmented.tiff	segmented time lapse	WellI05	CC-2670	dyn	50.0
+single-cell-motility-assay/processed/WellI05_ChannelJOBS 10X red lida_Seq0068_tracks.csv	coordinates from cell tracking	WellI05	CC-2670	dyn	50.0
+single-cell-motility-assay/processed/WellI06_ChannelJOBS 10X red lida_Seq0069_animation.mp4	movie of tracked cells with animated trajectories	WellI06	CC-2670	atp	50.0
+single-cell-motility-assay/processed/WellI06_ChannelJOBS 10X red lida_Seq0069_segmented.tiff	segmented time lapse	WellI06	CC-2670	atp	50.0
+single-cell-motility-assay/processed/WellI06_ChannelJOBS 10X red lida_Seq0069_tracks.csv	coordinates from cell tracking	WellI06	CC-2670	atp	50.0
+single-cell-motility-assay/processed/WellI07_ChannelJOBS 10X red lida_Seq0070_animation.mp4	movie of tracked cells with animated trajectories	WellI07	CC-2670	dmso	50.0
+single-cell-motility-assay/processed/WellI07_ChannelJOBS 10X red lida_Seq0070_segmented.tiff	segmented time lapse	WellI07	CC-2670	dmso	50.0
+single-cell-motility-assay/processed/WellI07_ChannelJOBS 10X red lida_Seq0070_tracks.csv	coordinates from cell tracking	WellI07	CC-2670	dmso	50.0
+single-cell-motility-assay/processed/WellI08_ChannelJOBS 10X red lida_Seq0071_animation.mp4	movie of tracked cells with animated trajectories	WellI08	CC-2670	h2o	50.0
+single-cell-motility-assay/processed/WellI08_ChannelJOBS 10X red lida_Seq0071_segmented.tiff	segmented time lapse	WellI08	CC-2670	h2o	50.0
+single-cell-motility-assay/processed/WellI08_ChannelJOBS 10X red lida_Seq0071_tracks.csv	coordinates from cell tracking	WellI08	CC-2670	h2o	50.0
+single-cell-motility-assay/processed/WellJ01_ChannelJOBS 10X red lida_Seq0072_animation.mp4	movie of tracked cells with animated trajectories	WellJ01	CC-2670	tor	50.0
+single-cell-motility-assay/processed/WellJ01_ChannelJOBS 10X red lida_Seq0072_segmented.tiff	segmented time lapse	WellJ01	CC-2670	tor	50.0
+single-cell-motility-assay/processed/WellJ01_ChannelJOBS 10X red lida_Seq0072_tracks.csv	coordinates from cell tracking	WellJ01	CC-2670	tor	50.0
+single-cell-motility-assay/processed/WellJ02_ChannelJOBS 10X red lida_Seq0073_animation.mp4	movie of tracked cells with animated trajectories	WellJ02	CC-2670	tak	50.0
+single-cell-motility-assay/processed/WellJ02_ChannelJOBS 10X red lida_Seq0073_segmented.tiff	segmented time lapse	WellJ02	CC-2670	tak	50.0
+single-cell-motility-assay/processed/WellJ02_ChannelJOBS 10X red lida_Seq0073_tracks.csv	coordinates from cell tracking	WellJ02	CC-2670	tak	50.0
+single-cell-motility-assay/processed/WellJ03_ChannelJOBS 10X red lida_Seq0074_animation.mp4	movie of tracked cells with animated trajectories	WellJ03	CC-2670	lin	50.0
+single-cell-motility-assay/processed/WellJ03_ChannelJOBS 10X red lida_Seq0074_segmented.tiff	segmented time lapse	WellJ03	CC-2670	lin	50.0
+single-cell-motility-assay/processed/WellJ03_ChannelJOBS 10X red lida_Seq0074_tracks.csv	coordinates from cell tracking	WellJ03	CC-2670	lin	50.0
+single-cell-motility-assay/processed/WellJ04_ChannelJOBS 10X red lida_Seq0075_animation.mp4	movie of tracked cells with animated trajectories	WellJ04	CC-2670	ibu	50.0
+single-cell-motility-assay/processed/WellJ04_ChannelJOBS 10X red lida_Seq0075_segmented.tiff	segmented time lapse	WellJ04	CC-2670	ibu	50.0
+single-cell-motility-assay/processed/WellJ04_ChannelJOBS 10X red lida_Seq0075_tracks.csv	coordinates from cell tracking	WellJ04	CC-2670	ibu	50.0
+single-cell-motility-assay/processed/WellJ05_ChannelJOBS 10X red lida_Seq0076_animation.mp4	movie of tracked cells with animated trajectories	WellJ05	CC-2670	dyn	50.0
+single-cell-motility-assay/processed/WellJ05_ChannelJOBS 10X red lida_Seq0076_segmented.tiff	segmented time lapse	WellJ05	CC-2670	dyn	50.0
+single-cell-motility-assay/processed/WellJ05_ChannelJOBS 10X red lida_Seq0076_tracks.csv	coordinates from cell tracking	WellJ05	CC-2670	dyn	50.0
+single-cell-motility-assay/processed/WellK01_ChannelJOBS 10X red lida_Seq0080_animation.mp4	movie of tracked cells with animated trajectories	WellK01	CC-3707	tor	50.0
+single-cell-motility-assay/processed/WellK01_ChannelJOBS 10X red lida_Seq0080_segmented.tiff	segmented time lapse	WellK01	CC-3707	tor	50.0
+single-cell-motility-assay/processed/WellK01_ChannelJOBS 10X red lida_Seq0080_tracks.csv	coordinates from cell tracking	WellK01	CC-3707	tor	50.0
+single-cell-motility-assay/processed/WellK02_ChannelJOBS 10X red lida_Seq0081_animation.mp4	movie of tracked cells with animated trajectories	WellK02	CC-3707	tak	50.0
+single-cell-motility-assay/processed/WellK02_ChannelJOBS 10X red lida_Seq0081_segmented.tiff	segmented time lapse	WellK02	CC-3707	tak	50.0
+single-cell-motility-assay/processed/WellK02_ChannelJOBS 10X red lida_Seq0081_tracks.csv	coordinates from cell tracking	WellK02	CC-3707	tak	50.0
+single-cell-motility-assay/processed/WellK03_ChannelJOBS 10X red lida_Seq0082_animation.mp4	movie of tracked cells with animated trajectories	WellK03	CC-3707	lin	50.0
+single-cell-motility-assay/processed/WellK03_ChannelJOBS 10X red lida_Seq0082_segmented.tiff	segmented time lapse	WellK03	CC-3707	lin	50.0
+single-cell-motility-assay/processed/WellK03_ChannelJOBS 10X red lida_Seq0082_tracks.csv	coordinates from cell tracking	WellK03	CC-3707	lin	50.0
+single-cell-motility-assay/processed/WellK04_ChannelJOBS 10X red lida_Seq0083_animation.mp4	movie of tracked cells with animated trajectories	WellK04	CC-3707	ibu	50.0
+single-cell-motility-assay/processed/WellK04_ChannelJOBS 10X red lida_Seq0083_segmented.tiff	segmented time lapse	WellK04	CC-3707	ibu	50.0
+single-cell-motility-assay/processed/WellK04_ChannelJOBS 10X red lida_Seq0083_tracks.csv	coordinates from cell tracking	WellK04	CC-3707	ibu	50.0
+single-cell-motility-assay/processed/WellK05_ChannelJOBS 10X red lida_Seq0084_animation.mp4	movie of tracked cells with animated trajectories	WellK05	CC-3707	dyn	50.0
+single-cell-motility-assay/processed/WellK05_ChannelJOBS 10X red lida_Seq0084_segmented.tiff	segmented time lapse	WellK05	CC-3707	dyn	50.0
+single-cell-motility-assay/processed/WellK05_ChannelJOBS 10X red lida_Seq0084_tracks.csv	coordinates from cell tracking	WellK05	CC-3707	dyn	50.0
+single-cell-motility-assay/processed/WellK06_ChannelJOBS 10X red lida_Seq0085_animation.mp4	movie of tracked cells with animated trajectories	WellK06	CC-3707	atp	50.0
+single-cell-motility-assay/processed/WellK06_ChannelJOBS 10X red lida_Seq0085_segmented.tiff	segmented time lapse	WellK06	CC-3707	atp	50.0
+single-cell-motility-assay/processed/WellK06_ChannelJOBS 10X red lida_Seq0085_tracks.csv	coordinates from cell tracking	WellK06	CC-3707	atp	50.0
+single-cell-motility-assay/processed/WellK07_ChannelJOBS 10X red lida_Seq0086_animation.mp4	movie of tracked cells with animated trajectories	WellK07	CC-3707	dmso	50.0
+single-cell-motility-assay/processed/WellK07_ChannelJOBS 10X red lida_Seq0086_segmented.tiff	segmented time lapse	WellK07	CC-3707	dmso	50.0
+single-cell-motility-assay/processed/WellK07_ChannelJOBS 10X red lida_Seq0086_tracks.csv	coordinates from cell tracking	WellK07	CC-3707	dmso	50.0
+single-cell-motility-assay/processed/WellK08_ChannelJOBS 10X red lida_Seq0087_animation.mp4	movie of tracked cells with animated trajectories	WellK08	CC-3707	h2o	50.0
+single-cell-motility-assay/processed/WellK08_ChannelJOBS 10X red lida_Seq0087_segmented.tiff	segmented time lapse	WellK08	CC-3707	h2o	50.0
+single-cell-motility-assay/processed/WellK08_ChannelJOBS 10X red lida_Seq0087_tracks.csv	coordinates from cell tracking	WellK08	CC-3707	h2o	50.0
+single-cell-motility-assay/processed/WellL01_ChannelJOBS 10X red lida_Seq0088_animation.mp4	movie of tracked cells with animated trajectories	WellL01	CC-3707	tor	50.0
+single-cell-motility-assay/processed/WellL01_ChannelJOBS 10X red lida_Seq0088_segmented.tiff	segmented time lapse	WellL01	CC-3707	tor	50.0
+single-cell-motility-assay/processed/WellL01_ChannelJOBS 10X red lida_Seq0088_tracks.csv	coordinates from cell tracking	WellL01	CC-3707	tor	50.0
+single-cell-motility-assay/processed/WellL02_ChannelJOBS 10X red lida_Seq0089_animation.mp4	movie of tracked cells with animated trajectories	WellL02	CC-3707	tak	50.0
+single-cell-motility-assay/processed/WellL02_ChannelJOBS 10X red lida_Seq0089_segmented.tiff	segmented time lapse	WellL02	CC-3707	tak	50.0
+single-cell-motility-assay/processed/WellL02_ChannelJOBS 10X red lida_Seq0089_tracks.csv	coordinates from cell tracking	WellL02	CC-3707	tak	50.0
+single-cell-motility-assay/processed/WellL03_ChannelJOBS 10X red lida_Seq0090_animation.mp4	movie of tracked cells with animated trajectories	WellL03	CC-3707	lin	50.0
+single-cell-motility-assay/processed/WellL03_ChannelJOBS 10X red lida_Seq0090_segmented.tiff	segmented time lapse	WellL03	CC-3707	lin	50.0
+single-cell-motility-assay/processed/WellL03_ChannelJOBS 10X red lida_Seq0090_tracks.csv	coordinates from cell tracking	WellL03	CC-3707	lin	50.0
+single-cell-motility-assay/processed/WellL04_ChannelJOBS 10X red lida_Seq0091_animation.mp4	movie of tracked cells with animated trajectories	WellL04	CC-3707	ibu	50.0
+single-cell-motility-assay/processed/WellL04_ChannelJOBS 10X red lida_Seq0091_segmented.tiff	segmented time lapse	WellL04	CC-3707	ibu	50.0
+single-cell-motility-assay/processed/WellL04_ChannelJOBS 10X red lida_Seq0091_tracks.csv	coordinates from cell tracking	WellL04	CC-3707	ibu	50.0
+single-cell-motility-assay/processed/WellL05_ChannelJOBS 10X red lida_Seq0092_animation.mp4	movie of tracked cells with animated trajectories	WellL05	CC-3707	dyn	50.0
+single-cell-motility-assay/processed/WellL05_ChannelJOBS 10X red lida_Seq0092_segmented.tiff	segmented time lapse	WellL05	CC-3707	dyn	50.0
+single-cell-motility-assay/processed/WellL05_ChannelJOBS 10X red lida_Seq0092_tracks.csv	coordinates from cell tracking	WellL05	CC-3707	dyn	50.0
+single-cell-motility-assay/processed/WellL06_ChannelJOBS 10X red lida_Seq0093_animation.mp4	movie of tracked cells with animated trajectories	WellL06	CC-3707	atp	50.0
+single-cell-motility-assay/processed/WellL06_ChannelJOBS 10X red lida_Seq0093_segmented.tiff	segmented time lapse	WellL06	CC-3707	atp	50.0
+single-cell-motility-assay/processed/WellL06_ChannelJOBS 10X red lida_Seq0093_tracks.csv	coordinates from cell tracking	WellL06	CC-3707	atp	50.0
+single-cell-motility-assay/processed/WellL07_ChannelJOBS 10X red lida_Seq0094_animation.mp4	movie of tracked cells with animated trajectories	WellL07	CC-3707	dmso	50.0
+single-cell-motility-assay/processed/WellL07_ChannelJOBS 10X red lida_Seq0094_segmented.tiff	segmented time lapse	WellL07	CC-3707	dmso	50.0
+single-cell-motility-assay/processed/WellL07_ChannelJOBS 10X red lida_Seq0094_tracks.csv	coordinates from cell tracking	WellL07	CC-3707	dmso	50.0
+single-cell-motility-assay/processed/WellL08_ChannelJOBS 10X red lida_Seq0095_animation.mp4	movie of tracked cells with animated trajectories	WellL08	CC-3707	h2o	50.0
+single-cell-motility-assay/processed/WellL08_ChannelJOBS 10X red lida_Seq0095_segmented.tiff	segmented time lapse	WellL08	CC-3707	h2o	50.0
+single-cell-motility-assay/processed/WellL08_ChannelJOBS 10X red lida_Seq0095_tracks.csv	coordinates from cell tracking	WellL08	CC-3707	h2o	50.0
