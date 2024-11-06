@@ -3,17 +3,24 @@ from pathlib import Path
 
 import click
 import pandas as pd
-from chlamytracker.tracking_metrics import TrajectoryCSVParser
 from natsort import natsorted
+from swimtracker.tracking_metrics import TrajectoryCSVParser
 from tqdm import tqdm
 
 REPO_ROOT_DIRECTORY = Path(__file__).parents[2]
-DEFAULT_INPUT_JSON_FILE = REPO_ROOT_DIRECTORY / "data/experimental_parameters.json"
-DEFAULT_OUTPUT_DIRECTORY = REPO_ROOT_DIRECTORY / "data/"
+DEFAULT_INPUT_DIRECTORY = REPO_ROOT_DIRECTORY / "data/single-cell-motility-assay/cell_trajectories/"
+DEFAULT_INPUT_JSON_FILE = (
+    REPO_ROOT_DIRECTORY / "data/single-cell-motility-assay/experimental_parameters.json"
+)
+DEFAULT_OUTPUT_DIRECTORY = DEFAULT_INPUT_DIRECTORY.parent
 
-input_directory_argument = click.argument(
+input_directory_option = click.option(
+    "--input-directory",
     "input_directory",
     type=Path,
+    default=DEFAULT_INPUT_DIRECTORY,
+    show_default=True,
+    help="File path to directory of CSV files of cell trajectories.",
 )
 
 input_json_option = click.option(
@@ -22,7 +29,10 @@ input_json_option = click.option(
     type=Path,
     default=DEFAULT_INPUT_JSON_FILE,
     show_default=True,
-    help="JSON file that maps each file in a dataset to a set of experimental parameters.",
+    help=(
+        "File path to JSON file that maps each file in a dataset to a set of experimental "
+        "parameters."
+    ),
 )
 
 output_directory_option = click.option(
@@ -31,7 +41,7 @@ output_directory_option = click.option(
     type=Path,
     default=DEFAULT_OUTPUT_DIRECTORY,
     show_default=True,
-    help="Directory for output CSV file of summary motility statistics.",
+    help="File path for output CSV file of summary motility statistics.",
 )
 
 trajectory_time_threshold_option = click.option(
@@ -61,7 +71,7 @@ trajectory_distance_threshold_option = click.option(
 @trajectory_time_threshold_option
 @output_directory_option
 @input_json_option
-@input_directory_argument
+@input_directory_option
 @click.command()
 def main(input_directory, input_json_file, output_directory, time_threshold, distance_threshold):
     """Script for computing summary motility metrics from cell trajectory data.
@@ -78,8 +88,7 @@ def main(input_directory, input_json_file, output_directory, time_threshold, dis
     ----------
     [1] https://doi.org/10.57844/arcadia-2d61-fb05
     """
-    # TODO: explain/justify this choice in the docstring
-    dataset_name = input_directory.name
+    dataset_name = input_directory.parent.name
 
     # handle missing file paths
     if not input_directory.exists():
@@ -91,7 +100,7 @@ def main(input_directory, input_json_file, output_directory, time_threshold, dis
     if not output_directory.exists():
         output_directory.mkdir(exist_ok=True, parents=False)
     else:
-        output_csv_file = output_directory / f"summary_motility_statistics_{dataset_name}.csv"
+        output_csv_file = output_directory / f"{dataset_name}_summary-statistics.csv"
 
     # collect CSV files to process
     trajectory_csvs = natsorted(input_directory.glob("*.csv"))
