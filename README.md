@@ -63,7 +63,7 @@ This repository is organized into the following top-level directories.
 ### Methods
 
 #### Cell tracking
-Cell tracking was performed using the [`track_cells.py`](https://github.com/Arcadia-Science/2024-unicellular-tracking/blob/eed79846209ec2ed7b805f843b0a4d89c272a339/src/chlamytracker/scripts/track_cells.py) script included in [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). To extract cell trajectories from image data, the image data must first be downloaded from [TODO: insert link to dataset on BioImage Archive]. The following command was used to perform cell tracking:
+Cell tracking was performed using the [`track_cells.py`](https://github.com/Arcadia-Science/2024-unicellular-tracking/blob/eed79846209ec2ed7b805f843b0a4d89c272a339/src/chlamytracker/scripts/track_cells.py) script included in [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). To extract cell trajectories from image data, the image data must first be downloaded from [S-BIAD1470](https://doi.org/10.6019/S-BIAD1470). The following command was used to perform cell tracking:
 ```{bash}
 python src/chlamytracker/scripts/track_cells.py 20240425_174057_487 --use-dask
 ```
@@ -72,10 +72,10 @@ The same command was repeated for the dataset of cells after 18 hours by substit
 See the [README](https://github.com/Arcadia-Science/2024-unicellular-tracking?tab=readme-ov-file#scripts) for more extensive documentation on how the `track_cells.py` script can be configured.
 
 #### Computing summary motility statistics
-To generate the summary motility statistics for each dataset of cell trajectories, the script `compute_motility_metrics.py` was run using the commands:
+The pre-computed summary statistics CSV is included in the repository at [`data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv`](data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv), so re-running this script is not necessary to reproduce the figures from the notebooks. To regenerate the summary motility statistics from the cell trajectory data, the script `compute_motility_metrics.py` can be run using the commands:
 ```{bash}
-python src/scripts/compute_motility_metrics.py data/cell_trajectories/20240425_174057_487/
-python src/scripts/compute_motility_metrics.py data/cell_trajectories/20240426_095610_676/
+python src/scripts/compute_motility_metrics.py --input-directory data/single-cell-motility-assay/cell_trajectories/20240425_174057_487/
+python src/scripts/compute_motility_metrics.py --input-directory data/single-cell-motility-assay/cell_trajectories/20240426_095610_676/
 ```
 
 #### Generating figures

@@ -99,8 +99,7 @@ def main(input_directory, input_json_file, output_directory, time_threshold, dis
         raise FileNotFoundError(msg)
     if not output_directory.exists():
         output_directory.mkdir(exist_ok=True, parents=False)
-    else:
-        output_csv_file = output_directory / f"{dataset_name}_summary-statistics.csv"
+    output_csv_file = output_directory / f"{dataset_name}_summary-statistics.csv"
 
     # collect CSV files to process
     trajectory_csvs = natsorted(input_directory.glob("*.csv"))

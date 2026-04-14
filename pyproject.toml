@@ -1,6 +1,6 @@
 [project]
-name = "TODO: Tool name"
-description = "TODO: Tool description"
+name = "2024-chlamy-mutant-motility-pub"
+description = "Analysis of Chlamydomonas reinhardtii mutant motility phenotypes and pharmacological rescue"
 version = "0.0.0"
 readme = "README.md"
 requires-python = ">=3.12"
