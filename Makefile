@@ -14,7 +14,3 @@ format:
 .PHONY: pre-commit
 pre-commit:
 	uv run pre-commit run --all-files
-
-.PHONY: lab
-lab:
-	uv run jupyter lab
