@@ -72,10 +72,9 @@ The same command was repeated for the dataset of cells after 18 hours by substit
 See the [README](https://github.com/Arcadia-Science/2024-unicellular-tracking?tab=readme-ov-file#scripts) for more extensive documentation on how the `track_cells.py` script can be configured.
 
 #### Computing summary motility statistics
-The pre-computed summary statistics CSV is included in the repository at [`data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv`](data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv), so re-running this script is not necessary to reproduce the figures from the notebooks. To regenerate the summary motility statistics from the cell trajectory data, the script `compute_motility_metrics.py` can be run using the commands:
+The pre-computed summary statistics CSV is included in the repository at [`data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv`](data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv), so re-running this script is not necessary to reproduce the figures from the notebooks. To regenerate the summary motility statistics from the cell trajectory data, the script `compute_motility_metrics.py` can be run using the command:
 ```{bash}
-python src/scripts/compute_motility_metrics.py --input-directory data/single-cell-motility-assay/cell_trajectories/20240425_174057_487/
-python src/scripts/compute_motility_metrics.py --input-directory data/single-cell-motility-assay/cell_trajectories/20240426_095610_676/
+python src/scripts/compute_motility_metrics.py
 ```
 
 #### Generating figures

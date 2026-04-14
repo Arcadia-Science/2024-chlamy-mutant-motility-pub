@@ -46,10 +46,9 @@ output_gif_filepath_option = click.option(
 def add_timestamp(img, timestamp):
     pil_img = Image.fromarray(img)
     draw = ImageDraw.Draw(pil_img)
-    font_path = "/Library/Fonts/Arial.ttf"
     font_size = 32
     try:
-        font = ImageFont.truetype(font_path, font_size)
+        font = ImageFont.truetype("arial.ttf", font_size)
     except OSError:
         font = ImageFont.load_default(font_size)
     text_position = (10, 10)
