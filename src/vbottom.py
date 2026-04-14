@@ -1,6 +1,5 @@
 from pathlib import Path
 
-import arcadia_pycolor as apc
 import matplotlib.pyplot as plt
 import numpy as np
 import skimage as ski
@@ -116,4 +115,4 @@ def annotate_phenotypeomat_image(
     if savefig_filepath is not None:
         savefig_filepath = Path(savefig_filepath)
         savefig_filepath.parent.mkdir(exist_ok=True)
-        apc.mpl.save_figure(savefig_filepath, dpi=192)
+        plt.savefig(savefig_filepath, dpi=192)
