@@ -1,6 +1,5 @@
 # 2024-chlamy-mutant-motility-pub
 
-[![run with conda](https://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/projects/miniconda/en/latest/)
 [![Arcadia Pub](https://img.shields.io/badge/Arcadia-Pub-596F74.svg?logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjcuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0My4yIDQwLjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQzLjIgNDAuNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOm5vbmU7c3Ryb2tlOiNGRkZGRkY7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOmJldmVsO3N0cm9rZS1taXRlcmxpbWl0OjEwO30KPC9zdHlsZT4KPGc+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjIxLjYsMyAxLjcsMzcuNCA0MS41LDM3LjQgCSIvPgoJPGxpbmUgY2xhc3M9InN0MCIgeDE9IjIxLjYiIHkxPSIzIiB4Mj0iMjEuNiIgeTI9IjI3LjMiLz4KCTxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjEyLjIsMTkuNCAyNC42LDMwLjEgMjQuNiwzNy40IAkiLz4KCTxsaW5lIGNsYXNzPSJzdDAiIHgxPSIxNy42IiB5MT0iMTYuNyIgeDI9IjE3LjYiIHkyPSIyNC4xIi8+Cgk8bGluZSBjbGFzcz0ic3QwIiB4MT0iMjguNiIgeTE9IjE1LjIiIHgyPSIyMS43IiB5Mj0iMjIuMSIvPgoJPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iNi44LDI4LjcgMTkuNSwzNC40IDE5LjUsMzcuNCAJIi8+Cgk8bGluZSBjbGFzcz0ic3QwIiB4MT0iMzQuOCIgeTE9IjI1LjgiIHgyPSIyNC42IiB5Mj0iMzYuMSIvPgoJPGxpbmUgY2xhc3M9InN0MCIgeDE9IjI5LjciIHkxPSIyMi4yIiB4Mj0iMjkuNyIgeTI9IjMwLjkiLz4KPC9nPgo8L3N2Zz4K)](https://doi.org/10.57844/arcadia-fe2a-711e)
 
 <img src=resources/figure-2_GA_70.png alt=tracked cells width=720>
@@ -13,23 +12,22 @@ This repository accompanies the pub "[Rescuing _Chlamydomonas_ motility in mutan
 
 ## Installation and Setup
 
-This repository uses conda to manage software environments and installations. If you do not already have conda installed, you can find operating system-specific instructions for installing miniconda [here](https://docs.anaconda.com/miniconda/). After installing conda, navigate to a directory where you would like to clone the repository, and run the following commands to create the pipeline run environment.
+This repository uses [uv](https://docs.astral.sh/uv/) to manage the Python environment and dependencies. If you do not already have uv installed, follow the [installation instructions](https://docs.astral.sh/uv/getting-started/installation/). After installing uv, clone the repository and sync the environment:
 
-Start by cloning the repository and installing the required dependencies into a fresh conda environment:
-```{bash}
+```bash
 git clone https://github.com/Arcadia-Science/2024-chlamy-mutant-motility-pub.git
 cd 2024-chlamy-mutant-motility-pub
-conda env create -n chlamy-mutant-motility --file envs/dev.yml
-conda activate chlamy-mutant-motility
+uv sync
 ```
 
+This will create a virtual environment (`.venv/`) and install all pinned dependencies from `uv.lock`.
+
 In order to enable cell tracking capabilities to process the raw image data or run the script `compute_motility_metrics.py`, you must also install the Python package within the repo [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). This can be done by running the following commands:
-```{bash}
+```bash
 cd ..
 git clone https://github.com/Arcadia-Science/2024-unicellular-tracking.git
-cd 2024-unicellular-tracking
-conda env update --file envs/dev.yml
-pip install -e .
+cd 2024-chlamy-mutant-motility-pub
+uv pip install -e ../2024-unicellular-tracking
 ```
 
 
@@ -51,7 +49,6 @@ While the image data is too large to be included in this repository, CSV files o
 
 This repository is organized into the following top-level directories.
 - **data**: See [Data](#data).
-- **envs**: Contains a conda environment YML file that lists the packages and dependencies used for creating the conda environment.
 - **notebooks**: A collection of Jupyter notebooks for analyzing motility data.
 - **resources**: Static files rendered within the repository.
 - **src**: Python modules that support the analyses composed in the notebooks such as for extracting intensity profiles for the v-bottom motility assay and calculating statistics.
@@ -64,18 +61,17 @@ This repository is organized into the following top-level directories.
 
 #### Cell tracking
 Cell tracking was performed using the [`track_cells.py`](https://github.com/Arcadia-Science/2024-unicellular-tracking/blob/eed79846209ec2ed7b805f843b0a4d89c272a339/src/chlamytracker/scripts/track_cells.py) script included in [`2024-unicellular-tracking`](https://github.com/Arcadia-Science/2024-unicellular-tracking). To extract cell trajectories from image data, the image data must first be downloaded from [S-BIAD1470](https://doi.org/10.6019/S-BIAD1470). The following command was used to perform cell tracking:
-```{bash}
-python src/chlamytracker/scripts/track_cells.py 20240425_174057_487 --use-dask
+```bash
+uv run python src/chlamytracker/scripts/track_cells.py 20240425_174057_487 --use-dask
 ```
 
 The same command was repeated for the dataset of cells after 18 hours by substituting in `20240426_095610_676` for the first argument.
 See the [README](https://github.com/Arcadia-Science/2024-unicellular-tracking?tab=readme-ov-file#scripts) for more extensive documentation on how the `track_cells.py` script can be configured.
 
 #### Computing summary motility statistics
-The pre-computed summary statistics CSV is included in the repository at [`data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv`](data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv), so re-running this script is not necessary to reproduce the figures from the notebooks. To regenerate the summary motility statistics from the cell trajectory data, the script `compute_motility_metrics.py` can be run using the commands:
-```{bash}
-python src/scripts/compute_motility_metrics.py --input-directory data/single-cell-motility-assay/cell_trajectories/20240425_174057_487/
-python src/scripts/compute_motility_metrics.py --input-directory data/single-cell-motility-assay/cell_trajectories/20240426_095610_676/
+The pre-computed summary statistics CSV is included in the repository at [`data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv`](data/single-cell-motility-assay/single-cell-motility-assay_summary-statistics.csv), so re-running this script is not necessary to reproduce the figures from the notebooks. To regenerate the summary motility statistics from the cell trajectory data, the script `compute_motility_metrics.py` can be run using the command:
+```bash
+uv run python src/scripts/compute_motility_metrics.py
 ```
 
 #### Generating figures
