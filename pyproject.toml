@@ -25,7 +25,7 @@ dependencies = [
     "tifffile>=2024.8.30",
     "imageio>=2.35.1",
     "ipympl>=0.9.4",
-    "arcadia-pycolor>=0.5.0",
+    "arcadia-pycolor>=0.7.2",
     "ipywidgets>=8.1.2",
 ]
 

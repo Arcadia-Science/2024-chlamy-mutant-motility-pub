@@ -40,7 +40,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "arcadia-pycolor", specifier = ">=0.5.0" },
+    { name = "arcadia-pycolor", specifier = ">=0.7.2" },
     { name = "click", specifier = ">=8.1.7" },
     { name = "imageio", specifier = ">=2.35.1" },
     { name = "ipympl", specifier = ">=0.9.4" },
