@@ -1,10 +1,33 @@
 [project]
 name = "2024-chlamy-mutant-motility-pub"
 description = "Analysis of Chlamydomonas reinhardtii mutant motility phenotypes and pharmacological rescue"
-version = "0.0.0"
+version = "1.1"
 readme = "README.md"
 requires-python = ">=3.12"
 license = { file = "LICENSE" }
+dependencies = [
+    "natsort>=8.4.0",
+    "click>=8.1.7",
+    "scikit-image>=0.22.0",
+    "scikit-learn>=1.4.2",
+    "scikit-posthocs>=0.10.0",
+    "jupyterlab>=4.1.8",
+    "numpy>=1.26.4",
+    "pandas>=2.2.2",
+    "matplotlib>=3.8.4",
+    "tqdm>=4.66.2",
+    "seaborn>=0.13.2",
+    "opencv-python>=4.10.0",
+    "ruff>=0.6.5",
+    "scipy>=1.14.1",
+    "pillow>=10.4.0",
+    "statsmodels>=0.14.3",
+    "tifffile>=2024.8.30",
+    "imageio>=2.35.1",
+    "ipympl>=0.9.4",
+    "arcadia-pycolor>=0.5.0",
+    "ipywidgets>=8.1.2",
+]
 
 
 [tool.ruff]
