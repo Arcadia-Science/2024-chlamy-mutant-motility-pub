@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "uv"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      python-security:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+      python-version:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
